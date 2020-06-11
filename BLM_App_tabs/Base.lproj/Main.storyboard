@@ -575,11 +575,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9V-0q-iIA">
-                                <rect key="frame" x="25" y="166" width="365" height="469"/>
+                                <rect key="frame" x="25" y="232" width="365" height="469"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <mutableString key="text">George Floyd was a father, a son, an avid sports fan, a partner, and a brother. Everyone knew his as being a friendly giant with a kind soul. Everyone loved to be around him since he was a good support system. He loved sports and even played football in high school where he constantly supported his team and would even burst out singing to get his team through a tough practice. He help the football team make the state championships multiple times. He was a huge fan of basketball and of LeBron James. He went to a community college where he played basketball for two years and then transferred to Texas A&amp;M University where he eventually dropped out. He loved music and even rapped with a group called the Screwed Up Click in Houston's hip-hop scene in the 1990s. He moved to Minneapolis where he worked as a truck driver and bouncer before the coronavirus pandemic hit. </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5h-A7-V0h">
@@ -587,20 +587,24 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">( information was pulled from social media accounts and https://www.aljazeera.com/news/2020/06/george-floyd-man-sparked-movement-200609175159156.html )</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="g" translatesAutoresizingMaskIntoConstraints="NO" id="bBa-4J-5ML">
+                                <rect key="frame" x="79" y="82" width="256" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="FIA-vS-Kgz"/>
                     </view>
                     <navigationItem key="navigationItem" title="George Floyd" id="PLQ-MA-xcZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iwA-RE-Yf9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2777" y="2196"/>
+            <point key="canvasLocation" x="-2778.2608695652175" y="2195.7589285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--Books-->
         <scene sceneID="gVq-oq-IZk">
             <objects>
                 <viewController id="T3z-be-wkZ" sceneMemberID="viewController">
@@ -608,18 +612,82 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Books" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oj2-qq-VpU">
-                                <rect key="frame" x="183" y="125" width="48" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gfd-fn-hjb">
+                                <rect key="frame" x="0.0" y="88" width="414" height="785"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pF5-Kx-ILV">
+                                        <rect key="frame" x="10" y="0.0" width="404" height="1055"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="55" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sf0-Ab-dHi">
+                                                <rect key="frame" x="0.0" y="0.0" width="404" height="1055"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <mutableString key="text">
+The New Jim Crow: Michelle Alexander
+The Fire Next Time: James Baldwin
+Indigenous Peoples' History of the United States: Roxanne Dunbar-Ortiz
+How to be an antiracist: Ibram X. Kendi 
+Pushout: The Criminalization of Black Girls in Schools: Monique W. Morris
+From #BlackLivesMatter to Black Liberation: Keeanga Yamahtta-Taylor
+As Black As Resistance: Zoe Samudzi
+When Affirmative Action was White: Ira Katznelson
+So You Want to Talk About Race: Ijeoma Oluo
+White Fragility: Why it’s so hard for white people to talk about racism Robin DiAngelo
+Freedom is a Constant Struggle: Angela Davis
+Women, Race and Class: Angela Davis
+Sister Outsider: Audre Lorde
+Your Silence Will Not Protect You: Audre Lorde
+Beloved: Toni Morrison 
+The Bluest Eye: Toni Morrison
+Song of Soloman: Toni Morrison
+Who do you serve? Who do you protect? : Alicia Garza, Joe Macare, etc.
+Captive Genders: Trans Embodiment and the Prison Industrial Complex: Eric A. Stanley
+The Autobiography of Malcolm X. : Alex Haley and Malcolm X.
+Race Matters: Cornel West
+How We Get Free: Black Feminism and the Combahee River Collective: Keeanga Yahmahtta-Taylor
+Crunk Feminist Collection: Brittney Cooper, Susana M. Morris, etc.
+They Can’t Kill Us All: Wesley Lowry
+Racism Without Racists: Eduardo Bonilla-Silva 
+This Bridge Called My Back: Compilation, edited by Cherrie Moraga and Gloria Anzaldua 
+I Know Why the Caged Bird Sings: Maya Angelou 
+Redefining Realness: Janet Mock
+Their Eyes Were Watching God: Zora Neale Hurston
+The Warmth of Other Suns: Isabel Wilkerson
+Black Against Empire: The History and Politics of the Black Panther Party Joshua Bloom
+Just Mercy: Bryan Stevenson
+Invisible No More: Police Violence Against Black Women of Color Andrea Ritchie
+Jackson Rising: The Struggle for Economic Democracy and Black Self-Determination Kali Akuno and Ajamu Nangwaya
+The End of Policing: Alex Vitale 
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="pF5-Kx-ILV" firstAttribute="trailing" secondItem="x3I-yD-6qs" secondAttribute="trailing" id="6My-LZ-LVM"/>
+                                    <constraint firstItem="pF5-Kx-ILV" firstAttribute="width" secondItem="ZTl-jR-EnD" secondAttribute="width" constant="-10" id="9R1-kv-Z5J"/>
+                                    <constraint firstItem="pF5-Kx-ILV" firstAttribute="leading" secondItem="x3I-yD-6qs" secondAttribute="leading" id="FM9-tt-nlJ"/>
+                                    <constraint firstItem="pF5-Kx-ILV" firstAttribute="top" secondItem="x3I-yD-6qs" secondAttribute="top" id="NEU-uo-5XA"/>
+                                    <constraint firstItem="pF5-Kx-ILV" firstAttribute="leading" secondItem="x3I-yD-6qs" secondAttribute="leading" constant="10" id="hxv-Ig-udi"/>
+                                    <constraint firstItem="pF5-Kx-ILV" firstAttribute="bottom" secondItem="x3I-yD-6qs" secondAttribute="bottom" id="j9c-9d-Q5N"/>
+                                    <constraint firstItem="pF5-Kx-ILV" firstAttribute="top" secondItem="x3I-yD-6qs" secondAttribute="top" id="kGO-Hi-QXc"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="x3I-yD-6qs"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="ZTl-jR-EnD"/>
+                            </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gfd-fn-hjb" firstAttribute="leading" secondItem="ocy-sF-cqe" secondAttribute="leading" id="EBY-6P-Sjo"/>
+                            <constraint firstItem="gfd-fn-hjb" firstAttribute="trailing" secondItem="ocy-sF-cqe" secondAttribute="trailing" id="U2A-kh-4eJ"/>
+                            <constraint firstItem="gfd-fn-hjb" firstAttribute="top" secondItem="ocy-sF-cqe" secondAttribute="top" id="f13-xS-t2u"/>
+                            <constraint firstItem="gfd-fn-hjb" firstAttribute="bottom" secondItem="ocy-sF-cqe" secondAttribute="bottom" constant="60" id="qIW-bs-StK"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ocy-sF-cqe"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Oiq-d2-cr6"/>
+                    <navigationItem key="navigationItem" title="Books" id="Oiq-d2-cr6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zPd-yd-Hgx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -881,11 +949,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uD1-sO-QWD">
-                                <rect key="frame" x="38" y="248" width="339" height="299"/>
+                                <rect key="frame" x="38" y="337" width="339" height="299"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <mutableString key="text">Breonna Taylor was a certified EMT who had two jobs at hospitals in Louisville. She adored her family above all else and made plans to succeed. She had planned on becoming a nurse and buying a house and then starting a family. She was kind, hardworking, and honest. She was a daughter, a godmother, a niece, a best friend, and a sister. She was an honor roll student, she loved board games, she liked to tell jokes, she loved helping others, she loved her job, she was applying to community college, and she was a caring person. </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSU-a1-lJA">
@@ -894,11 +962,15 @@
                                 <string key="text">( information was pulled from: https://www.google.com/amp/s/www.nbcnews.com/news/amp/ncna1226286
 And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-know-louisville-emt-killed-police/5189743002/ )</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="b" translatesAutoresizingMaskIntoConstraints="NO" id="gf7-uM-7S5">
+                                <rect key="frame" x="28" y="61" width="358" height="285"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="U7f-t1-brk"/>
                     </view>
                     <navigationItem key="navigationItem" title="Breonna Taylor" id="sV4-GN-fmo"/>
@@ -916,22 +988,26 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAa-Mp-lZ7">
-                                <rect key="frame" x="9" y="279" width="385" height="239"/>
+                                <rect key="frame" x="14" y="342" width="385" height="239"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Ahmaud Arbery was supposed to turn 26 on May 8. He played football in high school and graduated in 2012 then he went onto college and worked as an electrician. He was well mannered, kind, and humble. He loved boxing and inspired others in doing so. He loved staying active and fit. He was someone’s friend, someone’s son, and someone’s family.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="GxX-If-5Mv">
+                                <rect key="frame" x="26" y="84" width="363" height="278"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="P2J-cy-az5"/>
                     </view>
                     <navigationItem key="navigationItem" title="Ahmaud Arbery" id="HET-My-RKB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ki-Jz-XhA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1261" y="2196"/>
+            <point key="canvasLocation" x="-1262.3188405797102" y="2195.7589285714284"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GsV-SU-gBg">
@@ -946,11 +1022,11 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">There are many more lives that were lost who lived normal lives as many of us currently do. Police brutality is not and can not ever be justified. Rest In Peace to all the additional names that should be on this list. They were brothers, sisters, daughters, sons, parents, etc. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Ruw-9L-zR8"/>
                     </view>
                     <navigationItem key="navigationItem" id="qu5-ui-hUr"/>
@@ -962,8 +1038,11 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
     </scenes>
     <resources>
         <image name="BLM_Home" width="798" height="798"/>
+        <image name="a" width="1130" height="944"/>
+        <image name="b" width="1340" height="996"/>
         <image name="book" catalog="system" width="128" height="101"/>
         <image name="doc.text" catalog="system" width="115" height="128"/>
+        <image name="g" width="1304" height="962"/>
         <image name="house" catalog="system" width="128" height="110"/>
         <image name="square.and.pencil" catalog="system" width="128" height="118"/>
     </resources>
