@@ -471,7 +471,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SuK-6g-vTP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3797.1014492753625" y="1470.5357142857142"/>
+            <point key="canvasLocation" x="-5268" y="1471"/>
         </scene>
         <!--Who they were: Their Stories-->
         <scene sceneID="hEo-pQ-eCK">
@@ -564,7 +564,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ju4-bT-bGo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-791.304347826087" y="1470.5357142857142"/>
+            <point key="canvasLocation" x="-1597" y="1471"/>
         </scene>
         <!--George Floyd-->
         <scene sceneID="O4g-W1-ykD">
@@ -573,6 +573,24 @@
                     <view key="view" contentMode="scaleToFill" id="6YO-Df-FEF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9V-0q-iIA">
+                                <rect key="frame" x="25" y="166" width="365" height="469"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">George Floyd was a father, a son, an avid sports fan, a partner, and a brother. Everyone knew his as being a friendly giant with a kind soul. Everyone loved to be around him since he was a good support system. He loved sports and even played football in high school where he constantly supported his team and would even burst out singing to get his team through a tough practice. He help the football team make the state championships multiple times. He was a huge fan of basketball and of LeBron James. He went to a community college where he played basketball for two years and then transferred to Texas A&amp;M University where he eventually dropped out. He loved music and even rapped with a group called the Screwed Up Click in Houston's hip-hop scene in the 1990s. He moved to Minneapolis where he worked as a truck driver and bouncer before the coronavirus pandemic hit. </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5h-A7-V0h">
+                                <rect key="frame" x="27" y="700" width="361" height="105"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">( information was pulled from social media accounts and https://www.aljazeera.com/news/2020/06/george-floyd-man-sparked-movement-200609175159156.html )</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="FIA-vS-Kgz"/>
                     </view>
@@ -580,7 +598,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iwA-RE-Yf9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1184" y="2196"/>
+            <point key="canvasLocation" x="-2777" y="2196"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gVq-oq-IZk">
@@ -605,7 +623,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zPd-yd-Hgx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5383" y="2196"/>
+            <point key="canvasLocation" x="-6859.420289855073" y="2195.7589285714284"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gEI-bL-NXS">
@@ -630,7 +648,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VG2-0c-TT7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3797" y="2196"/>
+            <point key="canvasLocation" x="-5268" y="2196"/>
         </scene>
         <!--Vote-->
         <scene sceneID="8xm-9a-sD2">
@@ -655,7 +673,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="je9-UQ-YML" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2566.666666666667" y="742.63392857142856"/>
+            <point key="canvasLocation" x="2572" y="743"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -777,7 +795,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QcT-ia-S49" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2972" y="2196"/>
+            <point key="canvasLocation" x="-4487" y="2196"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oSq-N2-ti1">
@@ -802,7 +820,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GRo-1y-7NV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2128" y="2196"/>
+            <point key="canvasLocation" x="-3719" y="2196"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CBc-Cq-uSu">
@@ -827,7 +845,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mVL-wW-P5j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4568" y="2196"/>
+            <point key="canvasLocation" x="-6087" y="2196"/>
         </scene>
         <!--Protest Tips-->
         <scene sceneID="xt2-2t-zxg">
@@ -852,7 +870,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pPG-Xj-IlK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28" y="1471"/>
+            <point key="canvasLocation" x="346" y="1471"/>
         </scene>
         <!--Breonna Taylor-->
         <scene sceneID="eAg-lj-OeW">
@@ -861,6 +879,25 @@
                     <view key="view" contentMode="scaleToFill" id="g7Z-3o-4ki">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uD1-sO-QWD">
+                                <rect key="frame" x="38" y="248" width="339" height="299"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Breonna Taylor was a certified EMT who had two jobs at hospitals in Louisville. She adored her family above all else and made plans to succeed. She had planned on becoming a nurse and buying a house and then starting a family. She was kind, hardworking, and honest. She was a daughter, a godmother, a niece, a best friend, and a sister. She was an honor roll student, she loved board games, she liked to tell jokes, she loved helping others, she loved her job, she was applying to community college, and she was a caring person. </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSU-a1-lJA">
+                                <rect key="frame" x="28" y="644" width="366" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">( information was pulled from: https://www.google.com/amp/s/www.nbcnews.com/news/amp/ncna1226286
+And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-know-louisville-emt-killed-police/5189743002/ )</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="U7f-t1-brk"/>
                     </view>
@@ -868,7 +905,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Xd-10-jep" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-472" y="2196"/>
+            <point key="canvasLocation" x="-1994.2028985507247" y="2195.7589285714284"/>
         </scene>
         <!--Ahmaud Arbery-->
         <scene sceneID="6UB-TZ-CUz">
@@ -877,6 +914,16 @@
                     <view key="view" contentMode="scaleToFill" id="3mh-iI-vVP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAa-Mp-lZ7">
+                                <rect key="frame" x="9" y="279" width="385" height="239"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Ahmaud Arbery was supposed to turn 26 on May 8. He played football in high school and graduated in 2012 then he went onto college and worked as an electrician. He was well mannered, kind, and humble. He loved boxing and inspired others in doing so. He loved staying active and fit. He was someone’s friend, someone’s son, and someone’s family.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="P2J-cy-az5"/>
                     </view>
@@ -884,7 +931,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ki-Jz-XhA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="255" y="2196"/>
+            <point key="canvasLocation" x="-1261" y="2196"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GsV-SU-gBg">
@@ -894,15 +941,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q2P-oa-SI6">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87K-1Z-Lm9">
+                                <rect key="frame" x="15" y="301" width="385" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
+                                <string key="text">There are many more lives that were lost who lived normal lives as many of us currently do. Police brutality is not and can not ever be justified. Rest In Peace to all the additional names that should be on this list. They were brothers, sisters, daughters, sons, parents, etc. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Ruw-9L-zR8"/>
@@ -911,7 +957,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cnx-Dl-d5z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1008.6956521739131" y="2195.7589285714284"/>
+            <point key="canvasLocation" x="-496" y="2196"/>
         </scene>
     </scenes>
     <resources>
