@@ -52,7 +52,7 @@
             </objects>
             <point key="canvasLocation" x="895.6521739130435" y="0.0"/>
         </scene>
-        <!--View Controller-->
+        <!--Ways to Help-->
         <scene sceneID="Twi-td-RVb">
             <objects>
                 <viewController id="hRW-aV-eKR" sceneMemberID="viewController">
@@ -119,13 +119,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="BVT-ZR-ZDU"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Fti-UE-PUX"/>
+                    <navigationItem key="navigationItem" title="Ways to Help" id="Fti-UE-PUX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BKq-k8-FJf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4320" y="743"/>
         </scene>
-        <!--View Controller-->
+        <!--How to Donate with Money-->
         <scene sceneID="aOX-bv-kbJ">
             <objects>
                 <viewController id="g6b-Qp-eKs" sceneMemberID="viewController">
@@ -135,13 +135,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="FNI-nd-7b9"/>
                     </view>
-                    <navigationItem key="navigationItem" id="96T-7P-OZ9"/>
+                    <navigationItem key="navigationItem" title="How to Donate with Money" id="96T-7P-OZ9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zuy-Ml-2xj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1787" y="1498"/>
         </scene>
-        <!--View Controller-->
+        <!--How to Donate without Money-->
         <scene sceneID="pYr-2q-xkX">
             <objects>
                 <viewController id="XVn-ro-DO6" sceneMemberID="viewController">
@@ -151,13 +151,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="kxQ-FO-8hB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="kFK-3t-sLE"/>
+                    <navigationItem key="navigationItem" title="How to Donate without Money" id="kFK-3t-sLE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5p0-E3-gj5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2528" y="1498"/>
         </scene>
-        <!--View Controller-->
+        <!--Email Templates-->
         <scene sceneID="BpN-d5-r87">
             <objects>
                 <viewController id="ZT5-lS-Ak3" sceneMemberID="viewController">
@@ -167,13 +167,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="91X-R8-XcU"/>
                     </view>
-                    <navigationItem key="navigationItem" id="cuu-F0-q3P"/>
+                    <navigationItem key="navigationItem" title="Email Templates" id="cuu-F0-q3P"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SX2-R3-dWA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4014" y="1498"/>
         </scene>
-        <!--View Controller-->
+        <!--Reach out: Text-->
         <scene sceneID="aj3-c7-POE">
             <objects>
                 <viewController id="JUi-CC-85M" sceneMemberID="viewController">
@@ -183,13 +183,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ksB-lj-e8E"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Uac-gO-9eY"/>
+                    <navigationItem key="navigationItem" title="Reach out: Text" id="Uac-gO-9eY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="woB-Y5-gja" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4746" y="1498"/>
         </scene>
-        <!--View Controller-->
+        <!--Reach out: Emails-->
         <scene sceneID="Woe-VH-qNs">
             <objects>
                 <viewController id="rKT-DA-TJ5" sceneMemberID="viewController">
@@ -199,13 +199,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="EHP-63-tuF"/>
                     </view>
-                    <navigationItem key="navigationItem" id="8Qr-gd-gJc"/>
+                    <navigationItem key="navigationItem" title="Reach out: Emails" id="8Qr-gd-gJc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i1a-tq-ZwZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5501" y="1498"/>
         </scene>
-        <!--View Controller-->
+        <!--Petitions to Sign-->
         <scene sceneID="dqL-JC-gYQ">
             <objects>
                 <viewController id="lEs-fW-6db" sceneMemberID="viewController">
@@ -215,13 +215,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Nff-BK-KfC"/>
                     </view>
-                    <navigationItem key="navigationItem" id="kcA-WC-354"/>
+                    <navigationItem key="navigationItem" title="Petitions to Sign" id="kcA-WC-354"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jvk-d6-rYP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3271" y="1498"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Learn-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="BLM_App_tabs" customModuleProvider="target" sceneMemberID="viewController">
@@ -229,13 +229,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="Learn" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="119" y="115" width="177" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYq-qd-Ake">
                                 <rect key="frame" x="149" y="236" width="116" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -264,7 +257,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="eaD-DQ-bel"/>
+                    <navigationItem key="navigationItem" title="Learn" id="eaD-DQ-bel"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -326,9 +319,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SuK-6g-vTP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3797" y="1453"/>
+            <point key="canvasLocation" x="-3797" y="1471"/>
         </scene>
-        <!--View Controller-->
+        <!--Who they were: Their Stories-->
         <scene sceneID="hEo-pQ-eCK">
             <objects>
                 <viewController id="HtK-aH-mJg" sceneMemberID="viewController">
@@ -379,13 +372,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="qlF-Ml-iTz"/>
                     </view>
-                    <navigationItem key="navigationItem" id="aeq-we-PLk"/>
+                    <navigationItem key="navigationItem" title="Who they were: Their Stories" id="aeq-we-PLk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ju4-bT-bGo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-791" y="1471"/>
         </scene>
-        <!--View Controller-->
+        <!--George Floyd-->
         <scene sceneID="O4g-W1-ykD">
             <objects>
                 <viewController id="RuM-Tw-hb6" sceneMemberID="viewController">
@@ -395,7 +388,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="FIA-vS-Kgz"/>
                     </view>
-                    <navigationItem key="navigationItem" id="PLQ-MA-xcZ"/>
+                    <navigationItem key="navigationItem" title="George Floyd" id="PLQ-MA-xcZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iwA-RE-Yf9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -451,7 +444,7 @@
             </objects>
             <point key="canvasLocation" x="-3797" y="2196"/>
         </scene>
-        <!--View Controller-->
+        <!--Vote-->
         <scene sceneID="8xm-9a-sD2">
             <objects>
                 <viewController id="qCL-HV-jG7" sceneMemberID="viewController">
@@ -459,8 +452,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="Have your vocie heard &amp; VOTE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BMv-Qh-Rxz">
-                                <rect key="frame" x="17" y="100" width="381" height="126"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="Have your voice heard &amp; VOTE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BMv-Qh-Rxz">
+                                <rect key="frame" x="11" y="105" width="393" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
@@ -470,7 +463,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="qfU-EX-JJL"/>
                     </view>
-                    <navigationItem key="navigationItem" id="KRe-6a-7Gg"/>
+                    <navigationItem key="navigationItem" title="Vote" id="KRe-6a-7Gg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="je9-UQ-YML" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -629,7 +622,7 @@
             </objects>
             <point key="canvasLocation" x="-4568" y="2196"/>
         </scene>
-        <!--View Controller-->
+        <!--Protest Tips-->
         <scene sceneID="xt2-2t-zxg">
             <objects>
                 <viewController id="F8I-fe-Qsa" sceneMemberID="viewController">
@@ -648,13 +641,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="rat-yF-Qkn"/>
                     </view>
-                    <navigationItem key="navigationItem" id="67y-Jz-BcR"/>
+                    <navigationItem key="navigationItem" title="Protest Tips" id="67y-Jz-BcR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pPG-Xj-IlK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="28" y="1471"/>
         </scene>
-        <!--View Controller-->
+        <!--Breonna Taylor-->
         <scene sceneID="eAg-lj-OeW">
             <objects>
                 <viewController id="vst-hg-tKi" sceneMemberID="viewController">
@@ -664,13 +657,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="U7f-t1-brk"/>
                     </view>
-                    <navigationItem key="navigationItem" id="sV4-GN-fmo"/>
+                    <navigationItem key="navigationItem" title="Breonna Taylor" id="sV4-GN-fmo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Xd-10-jep" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-472" y="2196"/>
         </scene>
-        <!--View Controller-->
+        <!--Ahmaud Arbery-->
         <scene sceneID="6UB-TZ-CUz">
             <objects>
                 <viewController id="RdT-M0-rcw" sceneMemberID="viewController">
@@ -680,7 +673,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="P2J-cy-az5"/>
                     </view>
-                    <navigationItem key="navigationItem" id="HET-My-RKB"/>
+                    <navigationItem key="navigationItem" title="Ahmaud Arbery" id="HET-My-RKB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ki-Jz-XhA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
