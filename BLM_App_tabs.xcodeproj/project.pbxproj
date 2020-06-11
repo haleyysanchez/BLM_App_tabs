@@ -16,6 +16,11 @@
 		9A1380EE2491268600FEB32E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A1380ED2491268600FEB32E /* Assets.xcassets */; };
 		9A1380F12491268600FEB32E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1380EF2491268600FEB32E /* LaunchScreen.storyboard */; };
 		9A1380FB2492D38100FEB32E /* OnlineRespurceDocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1380FA2492D38000FEB32E /* OnlineRespurceDocumentsViewController.swift */; };
+		9A1380FD2492EACC00FEB32E /* HowToAllyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1380FC2492EACC00FEB32E /* HowToAllyViewController.swift */; };
+		9A1380FF2492ECF500FEB32E /* YoutubeVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1380FE2492ECF500FEB32E /* YoutubeVideosViewController.swift */; };
+		9A1381012492F20300FEB32E /* voteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1381002492F20300FEB32E /* voteViewController.swift */; };
+		9A1381032492F39500FEB32E /* GeorgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1381022492F39500FEB32E /* GeorgeViewController.swift */; };
+		9A1381052492F3B100FEB32E /* ArberyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1381042492F3B100FEB32E /* ArberyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		9A1380F02491268600FEB32E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A1380F22491268600FEB32E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A1380FA2492D38000FEB32E /* OnlineRespurceDocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineRespurceDocumentsViewController.swift; sourceTree = "<group>"; };
+		9A1380FC2492EACC00FEB32E /* HowToAllyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToAllyViewController.swift; sourceTree = "<group>"; };
+		9A1380FE2492ECF500FEB32E /* YoutubeVideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeVideosViewController.swift; sourceTree = "<group>"; };
+		9A1381002492F20300FEB32E /* voteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voteViewController.swift; sourceTree = "<group>"; };
+		9A1381022492F39500FEB32E /* GeorgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeorgeViewController.swift; sourceTree = "<group>"; };
+		9A1381042492F3B100FEB32E /* ArberyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArberyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +78,11 @@
 				9A1380E52491268400FEB32E /* SecondViewController.swift */,
 				9A1380E72491268400FEB32E /* Main.storyboard */,
 				9A1380FA2492D38000FEB32E /* OnlineRespurceDocumentsViewController.swift */,
+				9A1381022492F39500FEB32E /* GeorgeViewController.swift */,
+				9A1381042492F3B100FEB32E /* ArberyViewController.swift */,
+				9A1381002492F20300FEB32E /* voteViewController.swift */,
+				9A1380FC2492EACC00FEB32E /* HowToAllyViewController.swift */,
+				9A1380FE2492ECF500FEB32E /* YoutubeVideosViewController.swift */,
 				9A1380ED2491268600FEB32E /* Assets.xcassets */,
 				9A1380EF2491268600FEB32E /* LaunchScreen.storyboard */,
 				9A1380F22491268600FEB32E /* Info.plist */,
@@ -147,11 +162,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A1380FD2492EACC00FEB32E /* HowToAllyViewController.swift in Sources */,
+				9A1381052492F3B100FEB32E /* ArberyViewController.swift in Sources */,
 				9A1380EC2491268400FEB32E /* BLM_App_tabs.xcdatamodeld in Sources */,
 				9A1380E62491268400FEB32E /* SecondViewController.swift in Sources */,
 				9A1380E42491268400FEB32E /* FirstViewController.swift in Sources */,
+				9A1381012492F20300FEB32E /* voteViewController.swift in Sources */,
+				9A1381032492F39500FEB32E /* GeorgeViewController.swift in Sources */,
 				9A1380E02491268400FEB32E /* AppDelegate.swift in Sources */,
 				9A1380E22491268400FEB32E /* SceneDelegate.swift in Sources */,
+				9A1380FF2492ECF500FEB32E /* YoutubeVideosViewController.swift in Sources */,
 				9A1380FB2492D38100FEB32E /* OnlineRespurceDocumentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

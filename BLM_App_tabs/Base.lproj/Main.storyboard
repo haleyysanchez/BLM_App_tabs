@@ -120,7 +120,7 @@
                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                                 <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="15"/>
-                                <state key="normal" title="     Reach out: Text     ">
+                                <state key="normal" title="Reach out: Phone">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -167,6 +167,33 @@
             </objects>
             <point key="canvasLocation" x="4320" y="743"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="rwH-XJ-7ll">
+            <objects>
+                <viewController id="g0u-eP-0rz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l5X-iW-kfy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PxD-cr-nK8">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="7uf-k6-nMP"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0QA-SO-pnj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BFo-oq-8EY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3964" y="2917"/>
+        </scene>
         <!--How to Donate with Money-->
         <scene sceneID="aOX-bv-kbJ">
             <objects>
@@ -199,7 +226,7 @@
             </objects>
             <point key="canvasLocation" x="3206" y="1498"/>
         </scene>
-        <!--Reach out: Text-->
+        <!--Reach out: Phone-->
         <scene sceneID="aj3-c7-POE">
             <objects>
                 <viewController id="JUi-CC-85M" sceneMemberID="viewController">
@@ -211,12 +238,32 @@
                                 <rect key="frame" x="157" y="713" width="101" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Call Templates"/>
+                                <connections>
+                                    <segue destination="mIq-Gc-2B0" kind="show" id="AaV-ak-JUF"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGS-n9-SnZ">
+                                <rect key="frame" x="82" y="296" width="251" height="203"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">TEXT JUSTICE TO 668366
+TEXT FLOYD TO 55156
+TEXT RESIST TO 50409
+TEXT ENOUGH TO 55156
+INTERNATIONAL ALLIES
+Postal codes: 
+90015 - Los Angeles, California
+10001 - New York City, New York
+75001 - Dallas, Texas
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ksB-lj-e8E"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Reach out: Text" id="Uac-gO-9eY"/>
+                    <navigationItem key="navigationItem" title="Reach out: Phone" id="Uac-gO-9eY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="woB-Y5-gja" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -234,7 +281,22 @@
                                 <rect key="frame" x="153" y="691" width="112" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Email Templates"/>
+                                <connections>
+                                    <segue destination="7ak-rQ-hhg" kind="show" id="4s7-OF-LOr"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IxR-Iu-bAY">
+                                <rect key="frame" x="10" y="274" width="395" height="230"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">MN representatives: citizeninfo@hennepin.us police@minneapolismn.gov minneapolis311@minneapolismn.gov policereview@minneapolismn.gov
+MN senators: https://www.senate.mn/members/
+MN house members: https://www.house.leg.state.mn.us/members/list
+Make sure to contact your local representative offices
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="EHP-63-tuF"/>
@@ -243,7 +305,80 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i1a-tq-ZwZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5501" y="1498"/>
+            <point key="canvasLocation" x="5498.5507246376819" y="1497.9910714285713"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jPv-fc-dGv">
+            <objects>
+                <viewController id="mIq-Gc-2B0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mcg-ng-UUG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quf-Vn-mqD">
+                                <rect key="frame" x="10" y="308" width="394" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Hello, my name is ______ and I am a constituent from the ____ District. I am contacting you because I want to know what you will do to protect black lives and prevent further instances of police brutality. I am calling to urge you to condemn police brutality, racial profiling, and the use of excessive force by police.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="B00-oE-Jtd"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LyN-yI-mdr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g3I-ni-t8l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4743.4782608695659" y="2204.4642857142858"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sSX-Cr-tJ4">
+            <objects>
+                <viewController id="7ak-rQ-hhg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QgV-Vn-oB8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJl-fa-BhV">
+                                <rect key="frame" x="24" y="375" width="347" height="423"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Personalize emails to agencies: https://boost.avoice.info/minneapolis 
+To report racist students: https://docs.google.com/document/d/1-Tv-EP_Vg0w7QtshAq3LHN1X2TyDfqO46VS87YbKpAk/edit?usp=drivesdk
+Justice for George Floyd: https://docs.google.com/document/d/1-dGBvXHznJqBOIs55QYynBfZBQX1sZS6m7ldcvUtHnw/mobilebasic 
+Email the Louisville police: https://louisville-police.org/FormCenter/About-Us-4/Email-the-Chief-43 
+Julius Jones Letter template: https://oneclickpolitics.global.ssl.fastly.net/messages/edit?promo_id=7177 
+Baltimore private police force: https://actionnetwork.org/letters/stop-the-hopkins-private-police?source=direct_link 
+Additional: https://linktr.ee/Wendynavichoque</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1P-BP-QMx">
+                                <rect key="frame" x="10" y="98" width="394" height="305"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Dear [Representative],
+
+
+My name is [Your Name] and I am constituent from the [District Name] District. I am contacting you because I want to know what you will do to protect black lives and prevent further instances of police brutality. I am calling to urge you to condemn police brutality, racial profiling, and the use of excessive force by police. 
+
+
+Sincerely,
+[Your Name]</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="umk-p4-HoV"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3WW-Za-3TN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ltR-vE-Fj6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5498.5507246376819" y="2205.1339285714284"/>
         </scene>
         <!--Petitions to Sign-->
         <scene sceneID="dqL-JC-gYQ">
@@ -549,7 +684,7 @@
         <!--George Floyd-->
         <scene sceneID="O4g-W1-ykD">
             <objects>
-                <viewController id="RuM-Tw-hb6" sceneMemberID="viewController">
+                <viewController id="RuM-Tw-hb6" customClass="GeorgeViewController" customModule="BLM_App_tabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6YO-Df-FEF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -581,6 +716,9 @@
                                 <state key="normal" title="See Video">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="RuM-Tw-hb6" eventType="touchUpInside" id="6B6-mG-t6j"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -681,23 +819,89 @@ Freedom is a Constant Struggle: Angela Davis
             </objects>
             <point key="canvasLocation" x="-6859.420289855073" y="2195.7589285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--Youtube Videos-->
         <scene sceneID="i2m-3K-x8I">
             <objects>
-                <viewController id="Yup-7S-pBn" sceneMemberID="viewController">
+                <viewController id="Yup-7S-pBn" customClass="YoutubeVideosViewController" customModule="BLM_App_tabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XaE-Tf-DFB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHi-un-8J9">
+                                <rect key="frame" x="101" y="105" width="199" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Systematic Racism explained"/>
+                                <connections>
+                                    <action selector="SRETapped:" destination="Yup-7S-pBn" eventType="touchUpInside" id="HuP-LK-XGG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQ3-RV-5gh">
+                                <rect key="frame" x="40" y="185" width="340" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="James Baldwin Debates William F. Buckley (1965)"/>
+                                <connections>
+                                    <action selector="JBDWFBTapped:" destination="Yup-7S-pBn" eventType="touchUpInside" id="YeM-6f-gk8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q5e-6J-UEO">
+                                <rect key="frame" x="106" y="244" width="207" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="James Baldwin on Dick Cavett"/>
+                                <connections>
+                                    <action selector="JBoDCTapped:" destination="Yup-7S-pBn" eventType="touchUpInside" id="SFd-0w-8qO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q8b-6r-P0h">
+                                <rect key="frame" x="12" y="321" width="376" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="What happens when I try to talk race with white people"/>
+                                <connections>
+                                    <action selector="whatHappensTapped:" destination="Yup-7S-pBn" eventType="touchUpInside" id="03G-df-L22"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7QE-OG-4NQ">
+                                <rect key="frame" x="23" y="420" width="354" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="White People, Enough: A Look at Power and Control"/>
+                                <connections>
+                                    <action selector="whitePeopleTapped:" destination="Yup-7S-pBn" eventType="touchUpInside" id="1VR-l8-2Tq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OW-VB-NsE">
+                                <rect key="frame" x="26" y="521" width="362" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Black &amp; Asian Solidarity in NYC: What We’ve Learned"/>
+                                <connections>
+                                    <action selector="blackAndAsianTapped:" destination="Yup-7S-pBn" eventType="touchUpInside" id="h2A-em-1Sy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPl-M3-qPM">
+                                <rect key="frame" x="147" y="599" width="89" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Angela Davis"/>
+                                <connections>
+                                    <action selector="ADTapped:" destination="Yup-7S-pBn" eventType="touchUpInside" id="iJH-MP-IUC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NP8-Gy-ceF">
+                                <rect key="frame" x="34" y="682" width="317" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Black Lives Matter &amp; The Question of Violence"/>
+                                <connections>
+                                    <action selector="BLMVTapped:" destination="Yup-7S-pBn" eventType="touchUpInside" id="TVp-Oe-h0p"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Hhv-ze-peQ"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Xg7-la-ls2"/>
+                    <navigationItem key="navigationItem" title="Youtube Videos" id="Xg7-la-ls2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1MQ-HS-NHH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-6886" y="2917"/>
         </scene>
-        <!--View Controller-->
+        <!--Shows-->
         <scene sceneID="JYA-zW-oNt">
             <objects>
                 <viewController id="u4f-bG-twx" sceneMemberID="viewController">
@@ -707,13 +911,13 @@ Freedom is a Constant Struggle: Angela Davis
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="T2v-3r-WFL"/>
                     </view>
-                    <navigationItem key="navigationItem" id="rlY-h1-aak"/>
+                    <navigationItem key="navigationItem" title="Shows" id="rlY-h1-aak"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qtu-NX-oew" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-6088" y="2917"/>
         </scene>
-        <!--View Controller-->
+        <!--Movies-->
         <scene sceneID="dJS-cb-GWD">
             <objects>
                 <viewController id="bgt-Fu-oFr" sceneMemberID="viewController">
@@ -723,7 +927,7 @@ Freedom is a Constant Struggle: Angela Davis
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="WOk-2v-Qa2"/>
                     </view>
-                    <navigationItem key="navigationItem" id="VkD-pH-RFl"/>
+                    <navigationItem key="navigationItem" title="Movies" id="VkD-pH-RFl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rnc-Sd-obr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -757,18 +961,58 @@ Freedom is a Constant Struggle: Angela Davis
         <!--Vote-->
         <scene sceneID="8xm-9a-sD2">
             <objects>
-                <viewController id="qCL-HV-jG7" sceneMemberID="viewController">
+                <viewController id="qCL-HV-jG7" customClass="voteViewController" customModule="BLM_App_tabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tcT-EO-FOv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="Have your voice heard &amp; VOTE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BMv-Qh-Rxz">
-                                <rect key="frame" x="11" y="105" width="393" height="110"/>
+                                <rect key="frame" x="11" y="94" width="393" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dy-4e-l1Z">
+                                <rect key="frame" x="124" y="222" width="157" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="How to register to vote"/>
+                                <connections>
+                                    <action selector="howTapped:" destination="qCL-HV-jG7" eventType="touchUpInside" id="PkQ-gD-sxQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOV-lk-RNX">
+                                <rect key="frame" x="89" y="301" width="236" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Check if you are registered to vote"/>
+                                <connections>
+                                    <action selector="checkTapped:" destination="qCL-HV-jG7" eventType="touchUpInside" id="D5f-xi-lhF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHI-av-gUd">
+                                <rect key="frame" x="133" y="396" width="139" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Polling place locator"/>
+                                <connections>
+                                    <action selector="locatorTapped:" destination="qCL-HV-jG7" eventType="touchUpInside" id="qSt-HY-4LU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9m-YW-Unf">
+                                <rect key="frame" x="115" y="621" width="175" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Find who is on your ballot"/>
+                                <connections>
+                                    <action selector="findTapped:" destination="qCL-HV-jG7" eventType="touchUpInside" id="IVE-MH-Osg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8s-23-dJ1">
+                                <rect key="frame" x="110" y="513" width="195" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="State election office website"/>
+                                <connections>
+                                    <action selector="stateElectionWebTapped:" destination="qCL-HV-jG7" eventType="touchUpInside" id="OPk-QE-9cb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.01266393345" green="0.012668639420000001" blue="0.01266293414" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="qfU-EX-JJL"/>
@@ -876,10 +1120,10 @@ Freedom is a Constant Struggle: Angela Davis
             </objects>
             <point key="canvasLocation" x="3530" y="743"/>
         </scene>
-        <!--View Controller-->
+        <!--How To Ally View Controller-->
         <scene sceneID="1w5-Pa-8ol">
             <objects>
-                <viewController id="WYg-sM-cFm" sceneMemberID="viewController">
+                <viewController id="WYg-sM-cFm" customClass="HowToAllyViewController" customModule="BLM_App_tabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VzL-dg-xyT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -891,6 +1135,41 @@ Freedom is a Constant Struggle: Angela Davis
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OIC-V2-I6c">
+                                <rect key="frame" x="20" y="170" width="374" height="182"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">- Familiarize yourself with what this movement is and what it is about. Then, do what you can.
+- Listen to black voices but do not try and speak for them.
+- Donate, speak out, protest, and always protect your fellow black brothers and sisters 
+- Do your part and have tough conversations with your family members</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idR-ns-nCu">
+                                <rect key="frame" x="96" y="403" width="223" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Send a letter to a family member"/>
+                                <connections>
+                                    <action selector="letterTapped:" destination="WYg-sM-cFm" eventType="touchUpInside" id="eqf-im-y0d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yCX-eM-L8r">
+                                <rect key="frame" x="175" y="522" width="65" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="More tips"/>
+                                <connections>
+                                    <action selector="moreTapped:" destination="WYg-sM-cFm" eventType="touchUpInside" id="7WB-MU-Pau"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVq-iX-8eA">
+                                <rect key="frame" x="179" y="647" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cartoon"/>
+                                <connections>
+                                    <segue destination="hMr-is-OuW" kind="show" id="2iG-iC-ABp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ASF-Xj-5cs"/>
@@ -899,7 +1178,7 @@ Freedom is a Constant Struggle: Angela Davis
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QcT-ia-S49" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4487" y="2196"/>
+            <point key="canvasLocation" x="-4488.4057971014499" y="2195.7589285714284"/>
         </scene>
         <!--Online Respurce Documents View Controller-->
         <scene sceneID="oSq-N2-ti1">
@@ -909,15 +1188,6 @@ Freedom is a Constant Struggle: Angela Davis
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tue-go-0Oc">
-                                <rect key="frame" x="0.0" y="86" width="414" height="725"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Online Resource Documents" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k49-oc-fY0">
                                 <rect key="frame" x="101" y="116" width="218" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -926,49 +1196,60 @@ Freedom is a Constant Struggle: Angela Davis
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dut-VF-7Dk">
-                                <rect key="frame" x="120" y="219" width="175" height="30"/>
+                                <rect key="frame" x="120" y="225" width="175" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Black Revolutionary Texts"/>
+                                <connections>
+                                    <action selector="BRTTapped:" destination="0Jq-LK-z7j" eventType="touchUpInside" id="6KV-J5-muS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zn-xj-bHs">
-                                <rect key="frame" x="162" y="157" width="91" height="30"/>
+                                <rect key="frame" x="162" y="160" width="91" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Black History"/>
+                                <connections>
+                                    <action selector="BHTapped:" destination="0Jq-LK-z7j" eventType="touchUpInside" id="RM9-zE-NcT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ST6-gY-wb2">
-                                <rect key="frame" x="135" y="281" width="145" height="30"/>
+                                <rect key="frame" x="135" y="305" width="145" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Anti Racist resources"/>
+                                <connections>
+                                    <action selector="ARRTapped:" destination="0Jq-LK-z7j" eventType="touchUpInside" id="Z7Y-Xb-XPG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QiA-ul-FJB">
-                                <rect key="frame" x="117" y="351" width="180" height="30"/>
+                                <rect key="frame" x="117" y="402" width="180" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Anti-Racism for Beginners"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZuV-lB-gMo">
-                                <rect key="frame" x="60" y="415" width="294" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Anti-Racism &amp; the Prison Industrial System"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KsR-lE-TzP">
-                                <rect key="frame" x="112" y="494" width="190" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Prison Abolition Information"/>
+                                <connections>
+                                    <action selector="ARBTapped:" destination="0Jq-LK-z7j" eventType="touchUpInside" id="h0T-gp-IAJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9HF-Eq-sRj">
-                                <rect key="frame" x="135" y="563" width="145" height="30"/>
+                                <rect key="frame" x="135" y="503" width="145" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Education Resources"/>
+                                <connections>
+                                    <action selector="ERTapped:" destination="0Jq-LK-z7j" eventType="touchUpInside" id="LH6-h2-IzJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6RK-9c-Eli">
-                                <rect key="frame" x="142" y="640" width="130" height="30"/>
+                                <rect key="frame" x="142" y="604" width="130" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Allyship Resources"/>
+                                <connections>
+                                    <action selector="ASRTapped:" destination="0Jq-LK-z7j" eventType="touchUpInside" id="huz-2i-Brq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQJ-qo-wqZ">
-                                <rect key="frame" x="189" y="721" width="36" height="30"/>
+                                <rect key="frame" x="189" y="698" width="36" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="More"/>
+                                <connections>
+                                    <action selector="moreTapped:" destination="0Jq-LK-z7j" eventType="touchUpInside" id="oBh-1i-zRQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -1052,7 +1333,7 @@ Freedom is a Constant Struggle: Angela Davis
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pPG-Xj-IlK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="346" y="1471"/>
+            <point key="canvasLocation" x="700" y="1471"/>
         </scene>
         <!--Breonna Taylor-->
         <scene sceneID="eAg-lj-OeW">
@@ -1096,7 +1377,7 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
         <!--Ahmaud Arbery-->
         <scene sceneID="6UB-TZ-CUz">
             <objects>
-                <viewController id="RdT-M0-rcw" sceneMemberID="viewController">
+                <viewController id="RdT-M0-rcw" customClass="ArberyViewController" customModule="BLM_App_tabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3mh-iI-vVP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1127,6 +1408,9 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
                                 <state key="normal" title="See Video">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="RdT-M0-rcw" eventType="touchUpInside" id="8pW-Yi-6cA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1164,9 +1448,32 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
             </objects>
             <point key="canvasLocation" x="-496" y="2196"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="iQY-KS-zNx">
+            <objects>
+                <viewController id="hMr-is-OuW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CVI-tf-Dgn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_6436" translatesAutoresizingMaskIntoConstraints="NO" id="Zlx-f1-gth">
+                                <rect key="frame" x="0.0" y="148" width="414" height="595"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="neR-MV-3l1"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ec1-zO-lWr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vFt-nU-D1j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4488.4057971014499" y="2916.9642857142858"/>
+        </scene>
     </scenes>
     <resources>
         <image name="BLM_Home" width="798" height="798"/>
+        <image name="IMG_6436" width="800" height="1054"/>
         <image name="a" width="1130" height="944"/>
         <image name="b" width="1340" height="996"/>
         <image name="book" catalog="system" width="128" height="101"/>
