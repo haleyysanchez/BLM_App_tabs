@@ -15,6 +15,7 @@
 		9A1380EC2491268400FEB32E /* BLM_App_tabs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A1380EA2491268400FEB32E /* BLM_App_tabs.xcdatamodeld */; };
 		9A1380EE2491268600FEB32E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A1380ED2491268600FEB32E /* Assets.xcassets */; };
 		9A1380F12491268600FEB32E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A1380EF2491268600FEB32E /* LaunchScreen.storyboard */; };
+		9A1380FB2492D38100FEB32E /* OnlineRespurceDocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1380FA2492D38000FEB32E /* OnlineRespurceDocumentsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9A1380ED2491268600FEB32E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A1380F02491268600FEB32E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A1380F22491268600FEB32E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A1380FA2492D38000FEB32E /* OnlineRespurceDocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineRespurceDocumentsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				9A1380E32491268400FEB32E /* FirstViewController.swift */,
 				9A1380E52491268400FEB32E /* SecondViewController.swift */,
 				9A1380E72491268400FEB32E /* Main.storyboard */,
+				9A1380FA2492D38000FEB32E /* OnlineRespurceDocumentsViewController.swift */,
 				9A1380ED2491268600FEB32E /* Assets.xcassets */,
 				9A1380EF2491268600FEB32E /* LaunchScreen.storyboard */,
 				9A1380F22491268600FEB32E /* Info.plist */,
@@ -149,6 +152,7 @@
 				9A1380E42491268400FEB32E /* FirstViewController.swift in Sources */,
 				9A1380E02491268400FEB32E /* AppDelegate.swift in Sources */,
 				9A1380E22491268400FEB32E /* SceneDelegate.swift in Sources */,
+				9A1380FB2492D38100FEB32E /* OnlineRespurceDocumentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
