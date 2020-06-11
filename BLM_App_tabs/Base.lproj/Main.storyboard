@@ -96,24 +96,6 @@
                                     <segue destination="XVn-ro-DO6" kind="show" id="Pdc-ow-bOr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzw-5Y-A4w">
-                                <rect key="frame" x="74" y="468" width="266" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
-                                <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="15"/>
-                                <state key="normal" title="     Templates     ">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="ZT5-lS-Ak3" kind="show" id="2VY-G3-war"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQ1-5g-tPO">
                                 <rect key="frame" x="74" y="381" width="266" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -199,7 +181,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zuy-Ml-2xj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1787" y="1498"/>
+            <point key="canvasLocation" x="2443" y="1498"/>
         </scene>
         <!--How to Donate without Money-->
         <scene sceneID="pYr-2q-xkX">
@@ -215,23 +197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5p0-E3-gj5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2528" y="1498"/>
-        </scene>
-        <!--Email Templates-->
-        <scene sceneID="BpN-d5-r87">
-            <objects>
-                <viewController id="ZT5-lS-Ak3" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="12d-Vh-hSg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="91X-R8-XcU"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Email Templates" id="cuu-F0-q3P"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SX2-R3-dWA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4014" y="1498"/>
+            <point key="canvasLocation" x="3206" y="1498"/>
         </scene>
         <!--Reach out: Text-->
         <scene sceneID="aj3-c7-POE">
@@ -240,6 +206,13 @@
                     <view key="view" contentMode="scaleToFill" id="OGB-VY-Qj8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b61-Df-yNL">
+                                <rect key="frame" x="157" y="713" width="101" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Call Templates"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ksB-lj-e8E"/>
                     </view>
@@ -256,6 +229,13 @@
                     <view key="view" contentMode="scaleToFill" id="zFk-YJ-cDi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cg7-Ge-G5w">
+                                <rect key="frame" x="153" y="691" width="112" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Email Templates"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="EHP-63-tuF"/>
                     </view>
@@ -279,7 +259,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jvk-d6-rYP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3271" y="1498"/>
+            <point key="canvasLocation" x="3964" y="1498"/>
         </scene>
         <!--Learn-->
         <scene sceneID="wg7-f3-ORb">
@@ -385,7 +365,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLV-BQ-y99">
-                                <rect key="frame" x="82" y="335" width="250" height="50"/>
+                                <rect key="frame" x="82" y="351" width="250" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
@@ -402,8 +382,8 @@
                                     <segue destination="NtT-0k-iLr" kind="show" id="dMW-b8-afS"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKP-vp-cjc">
-                                <rect key="frame" x="82" y="447" width="250" height="50"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKP-vp-cjc">
+                                <rect key="frame" x="82" y="740" width="250" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
@@ -417,11 +397,11 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="61e-4K-MqF" kind="show" id="8o7-Lq-vZc"/>
+                                    <segue destination="61e-4K-MqF" kind="show" id="77A-E2-brz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sf-Lb-eLb">
-                                <rect key="frame" x="82" y="558" width="250" height="50"/>
+                                <rect key="frame" x="82" y="481" width="250" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
@@ -446,7 +426,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9P-Xc-5SY">
-                                <rect key="frame" x="82" y="668" width="250" height="50"/>
+                                <rect key="frame" x="82" y="618" width="250" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
@@ -582,11 +562,11 @@
                                 <color key="textColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5h-A7-V0h">
-                                <rect key="frame" x="27" y="700" width="361" height="105"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5h-A7-V0h">
+                                <rect key="frame" x="27" y="750" width="361" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">( information was pulled from social media accounts and https://www.aljazeera.com/news/2020/06/george-floyd-man-sparked-movement-200609175159156.html )</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <color key="textColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -594,6 +574,14 @@
                                 <rect key="frame" x="79" y="82" width="256" height="186"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8O-2k-csV">
+                                <rect key="frame" x="157" y="701" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="See Video">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="FIA-vS-Kgz"/>
@@ -616,47 +604,47 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="785"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pF5-Kx-ILV">
-                                        <rect key="frame" x="10" y="0.0" width="404" height="1055"/>
+                                        <rect key="frame" x="10" y="0.0" width="404" height="1075.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="55" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sf0-Ab-dHi">
-                                                <rect key="frame" x="0.0" y="0.0" width="404" height="1055"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="404" height="1075.5"/>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <mutableString key="text">
-The New Jim Crow: Michelle Alexander
-The Fire Next Time: James Baldwin
-Indigenous Peoples' History of the United States: Roxanne Dunbar-Ortiz
-How to be an antiracist: Ibram X. Kendi 
-Pushout: The Criminalization of Black Girls in Schools: Monique W. Morris
-From #BlackLivesMatter to Black Liberation: Keeanga Yamahtta-Taylor
-As Black As Resistance: Zoe Samudzi
-When Affirmative Action was White: Ira Katznelson
-So You Want to Talk About Race: Ijeoma Oluo
-White Fragility: Why it’s so hard for white people to talk about racism Robin DiAngelo
+- The New Jim Crow: Michelle Alexander
+- The Fire Next Time: James Baldwin
+- Indigenous Peoples' History of the United States: Roxanne Dunbar-Ortiz
+- How to be an antiracist: Ibram X. Kendi 
+- Pushout: The Criminalization of Black Girls in Schools: Monique W. Morris
+- From #BlackLivesMatter to Black Liberation: Keeanga Yamahtta-Taylor
+- As Black As Resistance: Zoe Samudzi
+- When Affirmative Action was White: Ira Katznelson
+- So You Want to Talk About Race: Ijeoma Oluo
+- White Fragility: Why it’s so hard for white people to talk about racism Robin DiAngelo
 Freedom is a Constant Struggle: Angela Davis
-Women, Race and Class: Angela Davis
-Sister Outsider: Audre Lorde
-Your Silence Will Not Protect You: Audre Lorde
-Beloved: Toni Morrison 
-The Bluest Eye: Toni Morrison
-Song of Soloman: Toni Morrison
-Who do you serve? Who do you protect? : Alicia Garza, Joe Macare, etc.
-Captive Genders: Trans Embodiment and the Prison Industrial Complex: Eric A. Stanley
-The Autobiography of Malcolm X. : Alex Haley and Malcolm X.
-Race Matters: Cornel West
-How We Get Free: Black Feminism and the Combahee River Collective: Keeanga Yahmahtta-Taylor
-Crunk Feminist Collection: Brittney Cooper, Susana M. Morris, etc.
-They Can’t Kill Us All: Wesley Lowry
-Racism Without Racists: Eduardo Bonilla-Silva 
-This Bridge Called My Back: Compilation, edited by Cherrie Moraga and Gloria Anzaldua 
-I Know Why the Caged Bird Sings: Maya Angelou 
-Redefining Realness: Janet Mock
-Their Eyes Were Watching God: Zora Neale Hurston
-The Warmth of Other Suns: Isabel Wilkerson
-Black Against Empire: The History and Politics of the Black Panther Party Joshua Bloom
-Just Mercy: Bryan Stevenson
-Invisible No More: Police Violence Against Black Women of Color Andrea Ritchie
-Jackson Rising: The Struggle for Economic Democracy and Black Self-Determination Kali Akuno and Ajamu Nangwaya
-The End of Policing: Alex Vitale 
+- Women, Race and Class: Angela Davis
+- Sister Outsider: Audre Lorde
+- Your Silence Will Not Protect You: Audre Lorde
+- Beloved: Toni Morrison 
+- The Bluest Eye: Toni Morrison
+- Song of Soloman: Toni Morrison
+- Who do you serve? Who do you protect? : Alicia Garza, Joe Macare, etc.
+- Captive Genders: Trans Embodiment and the Prison Industrial Complex: Eric A. Stanley
+- The Autobiography of Malcolm X. : Alex Haley and Malcolm X.
+- Race Matters: Cornel West
+- How We Get Free: Black Feminism and the Combahee River Collective: Keeanga Yahmahtta-Taylor
+- Crunk Feminist Collection: Brittney Cooper, Susana M. Morris, etc.
+- They Can’t Kill Us All: Wesley Lowry
+- Racism Without Racists: Eduardo Bonilla-Silva 
+- This Bridge Called My Back: Compilation, edited by Cherrie Moraga and Gloria Anzaldua 
+- I Know Why the Caged Bird Sings: Maya Angelou 
+- Redefining Realness: Janet Mock
+- Their Eyes Were Watching God: Zora Neale Hurston
+- The Warmth of Other Suns: Isabel Wilkerson
+- Black Against Empire: The History and Politics of the Black Panther Party Joshua Bloom
+- Just Mercy: Bryan Stevenson
+- Invisible No More: Police Violence Against Black Women of Color Andrea Ritchie
+- Jackson Rising: The Struggle for Economic Democracy and Black Self-Determination Kali Akuno and Ajamu Nangwaya
+
 </mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -692,6 +680,54 @@ The End of Policing: Alex Vitale
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zPd-yd-Hgx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-6859.420289855073" y="2195.7589285714284"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="i2m-3K-x8I">
+            <objects>
+                <viewController id="Yup-7S-pBn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XaE-Tf-DFB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Hhv-ze-peQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xg7-la-ls2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1MQ-HS-NHH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6886" y="2917"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JYA-zW-oNt">
+            <objects>
+                <viewController id="u4f-bG-twx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GUo-de-Sq8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="T2v-3r-WFL"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rlY-h1-aak"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qtu-NX-oew" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6088" y="2917"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dJS-cb-GWD">
+            <objects>
+                <viewController id="bgt-Fu-oFr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ctn-Kq-qvu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="WOk-2v-Qa2"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VkD-pH-RFl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rnc-Sd-obr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5268" y="2917"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gEI-bL-NXS">
@@ -905,6 +941,30 @@ The End of Policing: Alex Vitale
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qe-R1-1Nh">
+                                <rect key="frame" x="142" y="229" width="108" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Youtube Videos"/>
+                                <connections>
+                                    <segue destination="Yup-7S-pBn" kind="show" id="lVA-nw-gOQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzb-nF-KAg">
+                                <rect key="frame" x="178" y="391" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Shows"/>
+                                <connections>
+                                    <segue destination="u4f-bG-twx" kind="show" id="oFd-y2-4Ox"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYL-9y-g6v">
+                                <rect key="frame" x="187" y="541" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Movies"/>
+                                <connections>
+                                    <segue destination="bgt-Fu-oFr" kind="show" id="h8t-Dg-vED"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="07D-T3-ItX"/>
@@ -988,7 +1048,7 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAa-Mp-lZ7">
-                                <rect key="frame" x="14" y="342" width="385" height="239"/>
+                                <rect key="frame" x="14" y="370" width="385" height="239"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Ahmaud Arbery was supposed to turn 26 on May 8. He played football in high school and graduated in 2012 then he went onto college and worked as an electrician. He was well mannered, kind, and humble. He loved boxing and inspired others in doing so. He loved staying active and fit. He was someone’s friend, someone’s son, and someone’s family.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -999,6 +1059,21 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
                                 <rect key="frame" x="26" y="84" width="363" height="278"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="( information was pulled from: https://www.insider.com/who-is-ahmaud-arbery-gunned-down-in-georgia-2020-5 )" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Cf-Ri-Pyq">
+                                <rect key="frame" x="44" y="696" width="326" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPF-5f-EFG">
+                                <rect key="frame" x="157" y="634" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="See Video">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="P2J-cy-az5"/>
@@ -1018,7 +1093,7 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87K-1Z-Lm9">
-                                <rect key="frame" x="15" y="301" width="385" height="162"/>
+                                <rect key="frame" x="15" y="367" width="385" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">There are many more lives that were lost who lived normal lives as many of us currently do. Police brutality is not and can not ever be justified. Rest In Peace to all the additional names that should be on this list. They were brothers, sisters, daughters, sons, parents, etc. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
