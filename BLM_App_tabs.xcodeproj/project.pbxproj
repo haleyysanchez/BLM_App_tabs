@@ -24,6 +24,9 @@
 		9A1381012492F20300FEB32E /* voteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1381002492F20300FEB32E /* voteViewController.swift */; };
 		9A1381032492F39500FEB32E /* GeorgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1381022492F39500FEB32E /* GeorgeViewController.swift */; };
 		9A1381052492F3B100FEB32E /* ArberyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1381042492F3B100FEB32E /* ArberyViewController.swift */; };
+		9A138107249398B000FEB32E /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A138106249398B000FEB32E /* WebViewViewController.swift */; };
+		9A138109249399CC00FEB32E /* petitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A138108249399CC00FEB32E /* petitionsViewController.swift */; };
+		9A13810D2493A74700FEB32E /* WebViewViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A13810C2493A74700FEB32E /* WebViewViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		9A1381002492F20300FEB32E /* voteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = voteViewController.swift; sourceTree = "<group>"; };
 		9A1381022492F39500FEB32E /* GeorgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeorgeViewController.swift; sourceTree = "<group>"; };
 		9A1381042492F3B100FEB32E /* ArberyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArberyViewController.swift; sourceTree = "<group>"; };
+		9A138106249398B000FEB32E /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		9A138108249399CC00FEB32E /* petitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petitionsViewController.swift; sourceTree = "<group>"; };
+		9A13810C2493A74700FEB32E /* WebViewViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 		9A1380DE2491268400FEB32E /* BLM_App_tabs */ = {
 			isa = PBXGroup;
 			children = (
+				9A13810C2493A74700FEB32E /* WebViewViewController2.swift */,
 				9A1380DF2491268400FEB32E /* AppDelegate.swift */,
 				9A1380E12491268400FEB32E /* SceneDelegate.swift */,
 				9A1380E32491268400FEB32E /* FirstViewController.swift */,
@@ -86,6 +93,8 @@
 				9A1380FA2492D38000FEB32E /* OnlineRespurceDocumentsViewController.swift */,
 				9A1381022492F39500FEB32E /* GeorgeViewController.swift */,
 				9A1381042492F3B100FEB32E /* ArberyViewController.swift */,
+				9A138106249398B000FEB32E /* WebViewViewController.swift */,
+				9A138108249399CC00FEB32E /* petitionsViewController.swift */,
 				9A1381002492F20300FEB32E /* voteViewController.swift */,
 				9A1380FC2492EACC00FEB32E /* HowToAllyViewController.swift */,
 				9A1380FE2492ECF500FEB32E /* YoutubeVideosViewController.swift */,
@@ -177,13 +186,16 @@
 				9A1380EC2491268400FEB32E /* BLM_App_tabs.xcdatamodeld in Sources */,
 				9A1380E62491268400FEB32E /* SecondViewController.swift in Sources */,
 				84754E6C2493339700B7CB2E /* DonateWithoutMoneyViewController.swift in Sources */,
+				9A138109249399CC00FEB32E /* petitionsViewController.swift in Sources */,
 				9A1380E42491268400FEB32E /* FirstViewController.swift in Sources */,
 				9A1381012492F20300FEB32E /* voteViewController.swift in Sources */,
 				9A1381032492F39500FEB32E /* GeorgeViewController.swift in Sources */,
 				9A1380E02491268400FEB32E /* AppDelegate.swift in Sources */,
+				9A138107249398B000FEB32E /* WebViewViewController.swift in Sources */,
 				9A1380E22491268400FEB32E /* SceneDelegate.swift in Sources */,
 				84754E6A2493233700B7CB2E /* DonationWithMoneyViewController.swift in Sources */,
 				9A1380FF2492ECF500FEB32E /* YoutubeVideosViewController.swift in Sources */,
+				9A13810D2493A74700FEB32E /* WebViewViewController2.swift in Sources */,
 				9A1380FB2492D38100FEB32E /* OnlineRespurceDocumentsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -79,7 +79,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dna-eW-f6i">
-                                <rect key="frame" x="74" y="298" width="266" height="52"/>
+                                <rect key="frame" x="74" y="317" width="266" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
@@ -97,7 +97,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQ1-5g-tPO">
-                                <rect key="frame" x="74" y="381" width="266" height="52"/>
+                                <rect key="frame" x="74" y="422" width="266" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
@@ -115,7 +115,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iP9-at-UOl">
-                                <rect key="frame" x="74" y="557" width="266" height="52"/>
+                                <rect key="frame" x="74" y="534" width="266" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
@@ -167,10 +167,10 @@
             </objects>
             <point key="canvasLocation" x="4320" y="743"/>
         </scene>
-        <!--View Controller-->
+        <!--Web View View Controller-->
         <scene sceneID="rwH-XJ-7ll">
             <objects>
-                <viewController id="g0u-eP-0rz" sceneMemberID="viewController">
+                <viewController id="g0u-eP-0rz" customClass="WebViewViewController" customModule="BLM_App_tabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l5X-iW-kfy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -192,7 +192,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BFo-oq-8EY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3964" y="2917"/>
+            <point key="canvasLocation" x="-2778" y="2945"/>
         </scene>
         <!--How to Donate with Money-->
         <scene sceneID="aOX-bv-kbJ">
@@ -653,7 +653,7 @@ Sincerely,
         <!--Petitions to Sign-->
         <scene sceneID="dqL-JC-gYQ">
             <objects>
-                <viewController id="lEs-fW-6db" sceneMemberID="viewController">
+                <viewController id="lEs-fW-6db" customClass="petitionsViewController" customModule="BLM_App_tabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v6c-go-7WP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -662,11 +662,227 @@ Sincerely,
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3sF-16-osX">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1623"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2273.5"/>
                                         <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peitions to Sign" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDd-kN-d86">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2l-Mu-BbY">
+                                                <rect key="frame" x="0.0" y="20.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Justice for George Floyd 1">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="GF1Tapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="vXy-sb-tRi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ww-kE-jmr">
+                                                <rect key="frame" x="0.0" y="50.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Justice for George Floyd 2">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="GF2Tapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="01K-2H-wAG"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMA-7D-2FU">
+                                                <rect key="frame" x="0.0" y="80.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Justice for George Floyd 3">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="GF3:" destination="lEs-fW-6db" eventType="touchUpInside" id="0SG-sz-juc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pr4-BI-6PK">
+                                                <rect key="frame" x="0.0" y="110.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Justice for George Floyd 4">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="GF4Tapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="D1I-mh-mal"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sU-Zh-PEl">
+                                                <rect key="frame" x="0.0" y="140.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Justice for George Floyd 5">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="GF5Tapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="0Lm-La-vVX"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Had-PG-Ylp">
+                                                <rect key="frame" x="0.0" y="170.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Justice for George Floyd 6">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="GF6Tapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="Say-h7-amr"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GiV-fR-2hc">
+                                                <rect key="frame" x="0.0" y="200.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Police restraining methods change">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="PRTapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="fF9-ll-22H"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YpH-QD-DQ9">
+                                                <rect key="frame" x="0.0" y="230.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Justice for Breonna Taylor 1">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="BT1Tapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="w8s-R9-XYs"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6m-Zq-oNL">
+                                                <rect key="frame" x="0.0" y="260.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Justice for Breonna Taylor 2">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="BT2Tapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="lg0-N7-ssb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TdB-Sp-Ela">
+                                                <rect key="frame" x="0.0" y="290.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Justice for Ahmaud Arbery 1">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="AA1Tapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="DnX-dB-M21"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q5P-rh-alf">
+                                                <rect key="frame" x="0.0" y="320.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Justice for Ahmaud Arbery 2">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="AA2Tapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="ylg-PU-QDC"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAD-Tp-vWm">
+                                                <rect key="frame" x="0.0" y="350.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Justice for Tony Mcdade">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="TMTapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="dQu-GL-cZd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ml-8B-ALa">
+                                                <rect key="frame" x="0.0" y="380.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Justice for Jamee Johnson">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="JJTapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="PUh-aE-ybz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pK-VT-NFS">
+                                                <rect key="frame" x="0.0" y="410.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Justice for Sandra Bland">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="SBTapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="OHu-0B-7FP"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rml-7G-qwc">
+                                                <rect key="frame" x="0.0" y="440.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Justice for Shukhri Abdi">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="SATapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="SwU-14-nhB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2iU-C8-r8M">
+                                                <rect key="frame" x="0.0" y="470.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Hands up act">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="HUATapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="m0k-RJ-4lf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Fc-P6-466">
+                                                <rect key="frame" x="0.0" y="500.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Classify white supremacist groups as domestic terrorists">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="ClassifyTapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="if3-Um-qF8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0N-vB-OTh">
+                                                <rect key="frame" x="0.0" y="530.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Ban and restrict tear gas">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="tearTapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="yrJ-IU-70f"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="531-gj-D59">
+                                                <rect key="frame" x="0.0" y="560.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="End police brutality">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="EPBTapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="WxV-q7-A32"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3q7-OL-X3B">
+                                                <rect key="frame" x="0.0" y="590.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Qualified immunity needs legislative reform">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="QITapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="JoC-24-0Lv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pfb-la-hIA">
+                                                <rect key="frame" x="0.0" y="620.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="More">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="moreTapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="UNc-0i-1Dk"/>
+                                                </connections>
+                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yg6-Sb-izR">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1623"/>
-                                                <string key="text">If you know of any tips that can keep protestors safe, SPEAK OUT
+                                                <rect key="frame" x="0.0" y="650.5" width="414" height="1623"/>
+                                                <mutableString key="text">If you know of any tips that can keep protestors safe, SPEAK OUT
 Let black voices take the stage, they deserve to speak and lead for themselves
 Info:
 Because ANTIFA has been dubbed a terrorist organization, anyone can be arrested “without reason”
@@ -707,7 +923,7 @@ aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -715,6 +931,7 @@ aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <color key="backgroundColor" red="0.094119526450000005" green="0.094114236530000006" blue="0.094117827710000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="3sF-16-osX" firstAttribute="width" secondItem="TCX-2b-1Qq" secondAttribute="width" id="1z0-AO-AxL"/>
                                     <constraint firstItem="3sF-16-osX" firstAttribute="bottom" secondItem="veD-e2-mm9" secondAttribute="bottom" id="6Ed-AS-tCj"/>
@@ -1063,6 +1280,7 @@ aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
                                 </state>
                                 <connections>
                                     <action selector="buttonTapped:" destination="RuM-Tw-hb6" eventType="touchUpInside" id="6B6-mG-t6j"/>
+                                    <segue destination="g0u-eP-0rz" kind="show" identifier="GFvideo" id="8QS-tE-zSZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1815,7 +2033,7 @@ YouTube, Amazon, Google Play, Hulu:
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJm-fC-mFo">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="1001.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <mutableString key="text">If you know of any tips that can keep protestors safe, SPEAK OUT
+                                                <string key="text">If you know of any tips that can keep protestors safe, SPEAK OUT
 Let black voices take the stage, they deserve to speak and lead for themselves
 
 - Because ANTIFA has been dubbed a terrorist organization, anyone can be arrested “without reason”
@@ -1839,7 +2057,7 @@ Let black voices take the stage, they deserve to speak and lead for themselves
 - You can use a traffic cone to stop tear gas or a tennis racket, etc to throw the tear gas back to the police
 - Heat protective gloves help for tear gas
 - Steel toed work boots can protect your feet
-(Cheap at walmart)</mutableString>
+(Cheap at walmart)</string>
                                                 <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -1948,6 +2166,7 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
                                 </state>
                                 <connections>
                                     <action selector="buttonTapped:" destination="RdT-M0-rcw" eventType="touchUpInside" id="8pW-Yi-6cA"/>
+                                    <segue destination="MNR-gN-EPe" kind="show" id="BEW-XM-PCk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1959,6 +2178,33 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ki-Jz-XhA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1262.3188405797102" y="2195.7589285714284"/>
+        </scene>
+        <!--Web View View Controller2-->
+        <scene sceneID="niC-kp-ZuC">
+            <objects>
+                <viewController id="MNR-gN-EPe" customClass="WebViewViewController2" customModule="BLM_App_tabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s7c-3h-wil">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l9j-7b-q3A">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="9tm-ra-aUH"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UpV-UT-ffY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wcd-L2-avw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1262" y="2944"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GsV-SU-gBg">

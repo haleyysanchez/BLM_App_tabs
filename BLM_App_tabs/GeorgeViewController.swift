@@ -17,11 +17,13 @@ class GeorgeViewController: UIViewController {
     }
     
     @IBAction func buttonTapped(_ sender: Any) {
-        let alertController = UIAlertController(title: "Warning!", message: "This video may disturb some viewers. Proceed with caution.", preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(title: "Continue", style: .default))
-        self.present(alertController, animated: true, completion: nil)
-        guard let url = URL(string: "https://www.youtube.com/watch?v=IUav_lXMbnU") else {return}
-        UIApplication.shared.open(url)
+        // the code below isnt working and idk why lol
+//        let alertController = UIAlertController(title: "Warning!", message: "This video may disturb some viewers. Proceed with caution.", preferredStyle: .alert)
+//        alertController.addAction(UIAlertAction(title: "Continue", style: .default))
+//        self.present(alertController, animated: true, completion: nil)
+//        guard let url = URL(string: "https://www.youtube.com/watch?v=IUav_lXMbnU") else {return}
+//        UIApplication.shared.open(url)
+//        performSegue(withIdentifier: "GFvideo", sender: self)
     }
     
     /*

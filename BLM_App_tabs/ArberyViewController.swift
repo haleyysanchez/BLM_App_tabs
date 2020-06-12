@@ -18,12 +18,12 @@ class ArberyViewController: UIViewController {
     
 
     @IBAction func buttonTapped(_ sender: Any) {
-        let alertController = UIAlertController(title: "Warning!", message: "This video may disturb some viewers. Proceed with caution.", preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(title: "Continue", style: .default))
-        self.present(alertController, animated: true, completion: nil)
+//        let alertController = UIAlertController(title: "Warning!", message: "This video may disturb some viewers. Proceed with caution.", preferredStyle: .alert)
+//        alertController.addAction(UIAlertAction(title: "Continue", style: .default))
+//        self.present(alertController, animated: true, completion: nil)
         
-        guard let url = URL(string: "https://www.youtube.com/watch?v=wLN4PAJEYc8") else {return}
-        UIApplication.shared.open(url)
+//        guard let url = URL(string: "https://www.youtube.com/watch?v=wLN4PAJEYc8") else {return}
+//        UIApplication.shared.open(url)
     }
     /*
     // MARK: - Navigation
