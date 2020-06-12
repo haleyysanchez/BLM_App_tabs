@@ -662,17 +662,12 @@ Sincerely,
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3sF-16-osX">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2273.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="609"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Peitions to Sign" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDd-kN-d86">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2l-Mu-BbY">
-                                                <rect key="frame" x="0.0" y="20.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Justice for George Floyd 1">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -681,8 +676,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ww-kE-jmr">
-                                                <rect key="frame" x="0.0" y="50.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="29" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Justice for George Floyd 2">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -691,8 +687,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMA-7D-2FU">
-                                                <rect key="frame" x="0.0" y="80.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="58" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Justice for George Floyd 3">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -701,8 +698,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pr4-BI-6PK">
-                                                <rect key="frame" x="0.0" y="110.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="87" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Justice for George Floyd 4">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -711,8 +709,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sU-Zh-PEl">
-                                                <rect key="frame" x="0.0" y="140.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="116" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Justice for George Floyd 5">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -721,8 +720,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Had-PG-Ylp">
-                                                <rect key="frame" x="0.0" y="170.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="145" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Justice for George Floyd 6">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -731,8 +731,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GiV-fR-2hc">
-                                                <rect key="frame" x="0.0" y="200.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="174" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Police restraining methods change">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -740,9 +741,21 @@ Sincerely,
                                                     <action selector="PRTapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="fF9-ll-22H"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YpH-QD-DQ9">
-                                                <rect key="frame" x="0.0" y="230.5" width="414" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAD-Tp-vWm">
+                                                <rect key="frame" x="0.0" y="203" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
+                                                <state key="normal" title="Justice for Tony Mcdade">
+                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="TMTapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="dQu-GL-cZd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YpH-QD-DQ9">
+                                                <rect key="frame" x="0.0" y="232" width="414" height="29"/>
+                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Justice for Breonna Taylor 1">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -751,8 +764,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6m-Zq-oNL">
-                                                <rect key="frame" x="0.0" y="260.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="261" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Justice for Breonna Taylor 2">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -761,8 +775,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TdB-Sp-Ela">
-                                                <rect key="frame" x="0.0" y="290.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="290" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Justice for Ahmaud Arbery 1">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -771,8 +786,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q5P-rh-alf">
-                                                <rect key="frame" x="0.0" y="320.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="319" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Justice for Ahmaud Arbery 2">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -780,19 +796,10 @@ Sincerely,
                                                     <action selector="AA2Tapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="ylg-PU-QDC"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAD-Tp-vWm">
-                                                <rect key="frame" x="0.0" y="350.5" width="414" height="30"/>
-                                                <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="Justice for Tony Mcdade">
-                                                    <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="TMTapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="dQu-GL-cZd"/>
-                                                </connections>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ml-8B-ALa">
-                                                <rect key="frame" x="0.0" y="380.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="348" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Justice for Jamee Johnson">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -801,8 +808,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pK-VT-NFS">
-                                                <rect key="frame" x="0.0" y="410.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="377" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Justice for Sandra Bland">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -811,8 +819,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rml-7G-qwc">
-                                                <rect key="frame" x="0.0" y="440.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="406" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Justice for Shukhri Abdi">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -821,8 +830,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2iU-C8-r8M">
-                                                <rect key="frame" x="0.0" y="470.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="435" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Hands up act">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -831,8 +841,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Fc-P6-466">
-                                                <rect key="frame" x="0.0" y="500.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="464" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Classify white supremacist groups as domestic terrorists">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -841,8 +852,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0N-vB-OTh">
-                                                <rect key="frame" x="0.0" y="530.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="493" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Ban and restrict tear gas">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -851,8 +863,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="531-gj-D59">
-                                                <rect key="frame" x="0.0" y="560.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="522" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="End police brutality">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -861,8 +874,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3q7-OL-X3B">
-                                                <rect key="frame" x="0.0" y="590.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="551" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="Qualified immunity needs legislative reform">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -871,8 +885,9 @@ Sincerely,
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pfb-la-hIA">
-                                                <rect key="frame" x="0.0" y="620.5" width="414" height="30"/>
+                                                <rect key="frame" x="0.0" y="580" width="414" height="29"/>
                                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="14"/>
                                                 <state key="normal" title="More">
                                                     <color key="titleColor" red="0.015912683680000001" green="0.015881914649999999" blue="0.02254684828" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -880,9 +895,25 @@ Sincerely,
                                                     <action selector="moreTapped:" destination="lEs-fW-6db" eventType="touchUpInside" id="UNc-0i-1Dk"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yg6-Sb-izR">
-                                                <rect key="frame" x="0.0" y="650.5" width="414" height="1623"/>
-                                                <mutableString key="text">If you know of any tips that can keep protestors safe, SPEAK OUT
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.80929718184702315" blue="0.029481855971359772" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="3sF-16-osX" firstAttribute="width" secondItem="TCX-2b-1Qq" secondAttribute="width" id="1z0-AO-AxL"/>
+                                    <constraint firstItem="3sF-16-osX" firstAttribute="bottom" secondItem="veD-e2-mm9" secondAttribute="bottom" id="6Ed-AS-tCj"/>
+                                    <constraint firstItem="3sF-16-osX" firstAttribute="trailing" secondItem="veD-e2-mm9" secondAttribute="trailing" id="H7S-1U-nRY"/>
+                                    <constraint firstItem="3sF-16-osX" firstAttribute="leading" secondItem="veD-e2-mm9" secondAttribute="leading" id="dPm-Sl-O0n"/>
+                                    <constraint firstItem="3sF-16-osX" firstAttribute="top" secondItem="veD-e2-mm9" secondAttribute="top" id="e2W-PR-wAA"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="veD-e2-mm9"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="TCX-2b-1Qq"/>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yg6-Sb-izR">
+                                <rect key="frame" x="0.0" y="887" width="414" height="1623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">If you know of any tips that can keep protestors safe, SPEAK OUT
 Let black voices take the stage, they deserve to speak and lead for themselves
 Info:
 Because ANTIFA has been dubbed a terrorist organization, anyone can be arrested “without reason”
@@ -923,25 +954,11 @@ aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</mutableString>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.094119526450000005" green="0.094114236530000006" blue="0.094117827710000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstItem="3sF-16-osX" firstAttribute="width" secondItem="TCX-2b-1Qq" secondAttribute="width" id="1z0-AO-AxL"/>
-                                    <constraint firstItem="3sF-16-osX" firstAttribute="bottom" secondItem="veD-e2-mm9" secondAttribute="bottom" id="6Ed-AS-tCj"/>
-                                    <constraint firstItem="3sF-16-osX" firstAttribute="trailing" secondItem="veD-e2-mm9" secondAttribute="trailing" id="H7S-1U-nRY"/>
-                                    <constraint firstItem="3sF-16-osX" firstAttribute="leading" secondItem="veD-e2-mm9" secondAttribute="leading" id="dPm-Sl-O0n"/>
-                                    <constraint firstItem="3sF-16-osX" firstAttribute="top" secondItem="veD-e2-mm9" secondAttribute="top" id="e2W-PR-wAA"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="veD-e2-mm9"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="TCX-2b-1Qq"/>
-                            </scrollView>
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -1254,7 +1271,7 @@ aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</mutable
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9V-0q-iIA">
                                 <rect key="frame" x="25" y="232" width="365" height="469"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">George Floyd was a father, a son, an avid sports fan, a partner, and a brother. Everyone knew his as being a friendly giant with a kind soul. Everyone loved to be around him since he was a good support system. He loved sports and even played football in high school where he constantly supported his team and would even burst out singing to get his team through a tough practice. He help the football team make the state championships multiple times. He was a huge fan of basketball and of LeBron James. He went to a community college where he played basketball for two years and then transferred to Texas A&amp;M University where he eventually dropped out. He loved music and even rapped with a group called the Screwed Up Click in Houston's hip-hop scene in the 1990s. He moved to Minneapolis where he worked as a truck driver and bouncer before the coronavirus pandemic hit. </string>
+                                <mutableString key="text">George Floyd was a father, a son, an avid sports fan, a partner, and a brother. Everyone knew him as a friendly giant with a kind soul. Everyone loved to be around him since he was a good support system. He played football in high school where he constantly supported his team and would even burst out singing to get his team through a tough practice. He helped the football team make the state championships multiple times. He was a huge fan of basketball and of LeBron James. He went to a community college where he played basketball for two years and then transferred to Texas A&amp;M University where he eventually dropped out. He loved music and even rapped with a group called the Screwed Up Click in Houston's hip-hop scene in the 1990s. He moved to Minneapolis where he worked as a truck driver and bouncer before the coronavirus pandemic hit. </mutableString>
                                 <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1272,9 +1289,10 @@ aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</mutable
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8O-2k-csV">
-                                <rect key="frame" x="157" y="701" width="100" height="30"/>
+                                <rect key="frame" x="157" y="697" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="15"/>
                                 <state key="normal" title="See Video">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -1790,7 +1808,7 @@ YouTube, Amazon, Google Play, Hulu:
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OIC-V2-I6c">
-                                <rect key="frame" x="20" y="169" width="374" height="182"/>
+                                <rect key="frame" x="20" y="169" width="374" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">- Familiarize yourself with what this movement is and what it is about. Then, do what you can.
 - Listen to black voices but do not try and speak for them.
@@ -2028,22 +2046,22 @@ YouTube, Amazon, Google Play, Hulu:
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fMQ-UH-B1G">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1001.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1021.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJm-fC-mFo">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1001.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1021.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <string key="text">If you know of any tips that can keep protestors safe, SPEAK OUT
+                                                <mutableString key="text">If you know of any tips that can keep protestors safe, SPEAK OUT
 Let black voices take the stage, they deserve to speak and lead for themselves
 
 - Because ANTIFA has been dubbed a terrorist organization, anyone can be arrested “without reason”
-- The rubber bullets that the police araae using are metal bullets with a very thin layer of rubber around it
+- The rubber bullets that the police are using are metal bullets with a very thin layer of rubber around it
 - 1 in 5 people shot will be permanently disabled  or deformed, 40% require hospitalization
 - Tear gas, although banned in warfare, is being used on peaceful protesters
 - Gas resulted in the death of protector Sarah Grossman
 - Batons are metal bats that can cause permanent head and bone injuries, even death
 - Bean bag rounds collapse a human skull and regularly kill and maim protesters
-- Police use of tasers can also result in death
+- Police use of tasers can also result in serious injury
 
 - Undercover police usually wear blue and white armbands in protests to distinguish themselves
 - Goggles can protect your eyes from pepper spray, maze, tear gas, etc MAKE SURE THEY’RE AIRTIGHT
@@ -2057,7 +2075,7 @@ Let black voices take the stage, they deserve to speak and lead for themselves
 - You can use a traffic cone to stop tear gas or a tennis racket, etc to throw the tear gas back to the police
 - Heat protective gloves help for tear gas
 - Steel toed work boots can protect your feet
-(Cheap at walmart)</string>
+(Cheap at walmart)</mutableString>
                                                 <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -2100,9 +2118,9 @@ Let black voices take the stage, they deserve to speak and lead for themselves
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uD1-sO-QWD">
-                                <rect key="frame" x="38" y="337" width="339" height="299"/>
+                                <rect key="frame" x="38" y="337" width="339" height="333"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Breonna Taylor was a certified EMT who had two jobs at hospitals in Louisville. She adored her family above all else and made plans to succeed. She had planned on becoming a nurse and buying a house and then starting a family. She was kind, hardworking, and honest. She was a daughter, a godmother, a niece, a best friend, and a sister. She was an honor roll student, she loved board games, she liked to tell jokes, she loved helping others, she loved her job, she was applying to community college, and she was a caring person. </string>
+                                <mutableString key="text">Breonna Taylor was a certified EMT who had two jobs at hospitals in Louisville. She adored her family above all else and made plans to succeed. She had planned on becoming a nurse, buying a house, then starting a family. She was kind, hardworking, and honest. She was a daughter, a godmother, a niece, a best friend, and a sister. She was an honor roll student, loved board games, loved to tell jokes, loved helping others, and loved her job. She was applying to community college, and was overall an amazing person. </mutableString>
                                 <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -2141,7 +2159,7 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAa-Mp-lZ7">
                                 <rect key="frame" x="14" y="370" width="385" height="239"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Ahmaud Arbery was supposed to turn 26 on May 8. He played football in high school and graduated in 2012 then he went onto college and worked as an electrician. He was well mannered, kind, and humble. He loved boxing and inspired others in doing so. He loved staying active and fit. He was someone’s friend, someone’s son, and someone’s family.</string>
+                                <string key="text">Ahmaud Arbery was supposed to turn 26 on May 8. He played football in high school, graduated in 2012, and then went onto college. He worked as an electrician and was well mannered, kind, and humble. He loved boxing and inspired others in doing so. He loved staying active and fit. He was someone’s friend, someone’s son, and someone’s family.</string>
                                 <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -2158,9 +2176,10 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPF-5f-EFG">
-                                <rect key="frame" x="157" y="634" width="100" height="30"/>
+                                <rect key="frame" x="157" y="617" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="15"/>
                                 <state key="normal" title="See Video">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
