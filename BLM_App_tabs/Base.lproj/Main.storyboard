@@ -197,34 +197,266 @@
         <!--How to Donate with Money-->
         <scene sceneID="aOX-bv-kbJ">
             <objects>
-                <viewController id="g6b-Qp-eKs" sceneMemberID="viewController">
+                <viewController id="g6b-Qp-eKs" customClass="DonationWithMoneyViewController" customModule="BLM_App_tabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="StF-rg-Xi4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lQU-B0-JOo">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4bZ-HI-Mpe">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="390"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4y-9p-bSd">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="George Floyd Memorial Fund">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onFloydFundTapped:" destination="g6b-Qp-eKs" eventType="touchUpInside" id="5Mu-Xk-7RH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LwG-BP-uaW">
+                                                <rect key="frame" x="0.0" y="30" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165689693294" blue="0.0045760216981718393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Ahmaud's Family Fund">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onAhmaudFundTapped:" destination="g6b-Qp-eKs" eventType="touchUpInside" id="Kcp-vD-kCt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lse-Qr-LCe">
+                                                <rect key="frame" x="0.0" y="60" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Regis Fund">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onRegisFundTapped:" destination="g6b-Qp-eKs" eventType="touchUpInside" id="ieh-LP-fDq"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNV-8t-ygf">
+                                                <rect key="frame" x="0.0" y="90" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="BLM">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onBlmTapped:" destination="g6b-Qp-eKs" eventType="touchUpInside" id="ScF-8n-K0k"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kLq-f0-29d">
+                                                <rect key="frame" x="0.0" y="120" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Black Visions Collective MN">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onBlvcMnTapped:" destination="g6b-Qp-eKs" eventType="touchUpInside" id="K4L-W8-OXl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Izx-c2-2S9">
+                                                <rect key="frame" x="0.0" y="150" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Black Visions Collective">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onBlvcTapped:" destination="g6b-Qp-eKs" eventType="touchUpInside" id="old-RE-K47"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVw-Yb-iOf">
+                                                <rect key="frame" x="0.0" y="180" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Reclaim The Block">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onReclaimTapped:" destination="g6b-Qp-eKs" eventType="touchUpInside" id="n5f-ko-FCq"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wph-fc-GCe">
+                                                <rect key="frame" x="0.0" y="210" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Homeless Black Transwomen Fund">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onHomelessTapped:" destination="g6b-Qp-eKs" eventType="touchUpInside" id="eak-M6-IIx"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZjJ-Ie-wy0">
+                                                <rect key="frame" x="0.0" y="240" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="BEAM">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onBeamTapped:" destination="g6b-Qp-eKs" eventType="touchUpInside" id="WAo-Uu-kTj"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gex-49-Kjb">
+                                                <rect key="frame" x="0.0" y="270" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Louisville Bail Fund">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onLouisvilleTapped:" destination="g6b-Qp-eKs" eventType="touchUpInside" id="bSf-zX-gid"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARp-N8-1ph">
+                                                <rect key="frame" x="0.0" y="300" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Minnesota Bail Fund">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onMinnesotaTapped:" destination="g6b-Qp-eKs" eventType="touchUpInside" id="eGu-Ib-d9N"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAU-yH-h2Z">
+                                                <rect key="frame" x="0.0" y="330" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="National Bailout">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onNationalTapped:" destination="g6b-Qp-eKs" eventType="touchUpInside" id="h6v-GC-est"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="260-Mu-l9x">
+                                                <rect key="frame" x="0.0" y="360" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="For More Click Here">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onForTapped:" destination="g6b-Qp-eKs" eventType="touchUpInside" id="dOi-i2-RLm"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstItem="4bZ-HI-Mpe" firstAttribute="leading" secondItem="wR8-pR-KSh" secondAttribute="leading" id="HEr-k1-CaM"/>
+                                    <constraint firstItem="4bZ-HI-Mpe" firstAttribute="width" secondItem="YfZ-6q-aKh" secondAttribute="width" id="Xge-Tl-T1B"/>
+                                    <constraint firstItem="4bZ-HI-Mpe" firstAttribute="bottom" secondItem="wR8-pR-KSh" secondAttribute="bottom" id="erb-vc-9f1"/>
+                                    <constraint firstItem="4bZ-HI-Mpe" firstAttribute="trailing" secondItem="wR8-pR-KSh" secondAttribute="trailing" id="jmJ-jL-DZy"/>
+                                    <constraint firstItem="4bZ-HI-Mpe" firstAttribute="top" secondItem="wR8-pR-KSh" secondAttribute="top" id="nUk-VQ-CWU"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="wR8-pR-KSh"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="YfZ-6q-aKh"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="lQU-B0-JOo" firstAttribute="top" secondItem="FNI-nd-7b9" secondAttribute="top" id="3Pf-ga-dPv"/>
+                            <constraint firstItem="lQU-B0-JOo" firstAttribute="trailing" secondItem="FNI-nd-7b9" secondAttribute="trailing" id="cwt-QI-XR0"/>
+                            <constraint firstItem="lQU-B0-JOo" firstAttribute="leading" secondItem="FNI-nd-7b9" secondAttribute="leading" id="qME-4S-zXz"/>
+                            <constraint firstItem="lQU-B0-JOo" firstAttribute="bottom" secondItem="FNI-nd-7b9" secondAttribute="bottom" id="yyk-rC-16m"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FNI-nd-7b9"/>
                     </view>
                     <navigationItem key="navigationItem" title="How to Donate with Money" id="96T-7P-OZ9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zuy-Ml-2xj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2443" y="1498"/>
+            <point key="canvasLocation" x="2442.0289855072465" y="1497.9910714285713"/>
         </scene>
         <!--How to Donate without Money-->
         <scene sceneID="pYr-2q-xkX">
             <objects>
-                <viewController id="XVn-ro-DO6" sceneMemberID="viewController">
+                <viewController id="XVn-ro-DO6" customClass="DonateWithoutMoneyViewController" customModule="BLM_App_tabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CJR-bq-jAF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BPr-XA-mBB">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kPt-90-nnU">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="170.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Watch all YouTube videos fully without skipping" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFn-cv-3AI">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="50.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <color key="textColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jSC-iM-fu2">
+                                                <rect key="frame" x="0.0" y="50.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Watch To Donate">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onWatchTapped:" destination="XVn-ro-DO6" eventType="touchUpInside" id="m2t-Xa-Jqv"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjT-FR-a7y">
+                                                <rect key="frame" x="0.0" y="80.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Donate by watching the videos in the playlist">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onPlaylistTapped:" destination="XVn-ro-DO6" eventType="touchUpInside" id="fam-m1-47s"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHT-El-zQj">
+                                                <rect key="frame" x="0.0" y="110.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Donate by playing games">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onGamesTapped:" destination="XVn-ro-DO6" eventType="touchUpInside" id="9kv-Aq-tan"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXD-Rs-72o">
+                                                <rect key="frame" x="0.0" y="140.5" width="414" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.83732165690000004" blue="0.0045760216980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Donate by sharing BLM links">
+                                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onLinksTapped:" destination="XVn-ro-DO6" eventType="touchUpInside" id="odC-Mu-C7Y"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstItem="kPt-90-nnU" firstAttribute="top" secondItem="kbN-Nd-pQ3" secondAttribute="top" id="7ib-OS-FYE"/>
+                                    <constraint firstItem="kPt-90-nnU" firstAttribute="bottom" secondItem="kbN-Nd-pQ3" secondAttribute="bottom" id="MCI-AW-D08"/>
+                                    <constraint firstItem="kPt-90-nnU" firstAttribute="width" secondItem="CQN-H0-CGW" secondAttribute="width" id="fC6-Ql-5Fm"/>
+                                    <constraint firstItem="kPt-90-nnU" firstAttribute="trailing" secondItem="kbN-Nd-pQ3" secondAttribute="trailing" id="h4C-V6-FOP"/>
+                                    <constraint firstItem="kPt-90-nnU" firstAttribute="leading" secondItem="kbN-Nd-pQ3" secondAttribute="leading" id="kZ2-Sh-FWu"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="kbN-Nd-pQ3"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="CQN-H0-CGW"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BPr-XA-mBB" firstAttribute="top" secondItem="kxQ-FO-8hB" secondAttribute="top" id="197-HD-zaX"/>
+                            <constraint firstItem="BPr-XA-mBB" firstAttribute="leading" secondItem="kxQ-FO-8hB" secondAttribute="leading" id="8qM-gZ-roH"/>
+                            <constraint firstItem="BPr-XA-mBB" firstAttribute="bottom" secondItem="kxQ-FO-8hB" secondAttribute="bottom" id="ZBl-yw-lU1"/>
+                            <constraint firstItem="BPr-XA-mBB" firstAttribute="trailing" secondItem="kxQ-FO-8hB" secondAttribute="trailing" id="p0J-0g-mjd"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="kxQ-FO-8hB"/>
                     </view>
                     <navigationItem key="navigationItem" title="How to Donate without Money" id="kFK-3t-sLE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5p0-E3-gj5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3206" y="1498"/>
+            <point key="canvasLocation" x="3205.7971014492755" y="1497.9910714285713"/>
         </scene>
         <!--Reach out: Phone-->
         <scene sceneID="aj3-c7-POE">
@@ -344,13 +576,13 @@ Make sure to contact your local representative offices
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJl-fa-BhV">
                                 <rect key="frame" x="24" y="375" width="347" height="423"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Personalize emails to agencies: https://boost.avoice.info/minneapolis 
+                                <string key="text">Personalize emails to agencies: https://boost.avoice.info/minneapolis 
 To report racist students: https://docs.google.com/document/d/1-Tv-EP_Vg0w7QtshAq3LHN1X2TyDfqO46VS87YbKpAk/edit?usp=drivesdk
 Justice for George Floyd: https://docs.google.com/document/d/1-dGBvXHznJqBOIs55QYynBfZBQX1sZS6m7ldcvUtHnw/mobilebasic 
 Email the Louisville police: https://louisville-police.org/FormCenter/About-Us-4/Email-the-Chief-43 
 Julius Jones Letter template: https://oneclickpolitics.global.ssl.fastly.net/messages/edit?promo_id=7177 
 Baltimore private police force: https://actionnetwork.org/letters/stop-the-hopkins-private-police?source=direct_link 
-Additional: https://linktr.ee/Wendynavichoque</mutableString>
+Additional: https://linktr.ee/Wendynavichoque</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -387,14 +619,89 @@ Sincerely,
                     <view key="view" contentMode="scaleToFill" id="v6c-go-7WP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dBF-Qf-WoD">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3sF-16-osX">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1623"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yg6-Sb-izR">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1623"/>
+                                                <mutableString key="text">If you know of any tips that can keep protestors safe, SPEAK OUT
+Let black voices take the stage, they deserve to speak and lead for themselves
+Info:
+Because ANTIFA has been dubbed a terrorist organization, anyone can be arrested “without reason”
+The rubber bullets that the police araae using are metal bullets with a very thin layer of rubber around it
+1 in 5 people shot will be permanently disabled  or deformed, 40% require hospitalization
+Tear gas, although banned in warfare, is being used on peaceful protesters
+Resulted in the death of protector Sarah Grossman
+Batons are metal bats that can cause permanent head and bone injuries, even death
+Bean bag rounds collapse a human skull and regularly kill and maim protesters
+Police use of tasers can also result in death
+Tips:
+Undercover police usually wear blue and white armbands in protests to distinguish themselves
+Swim goggles can protect your eyes from pepper spray, maze, tear gas, etc MAKE SURE THEY’RE AIRTIGHT
+Make a sign out of cheap plywood to be able to use it as a shield too
+equal parts ORIGINAL FLAVOR antacid solution + purified/ distilled water to soothe eyes better
+DON’T WEAR ANY MAKEUP tear gas and other things will cling to your skin
+Completely cover your face to protect it and cover any distinguishing features to protect yourselves
+mix flour with vaseline to cover certain features (nose bridge, etc.)
+The app 5-0 radio lets you listen to police radios all over the world in every city and county 
+Instead of going straight home go to a hotel, a friends home, or somewhere else in case you’re getting followed 
+You can use a traffic cone to stop tear gas or a tennis racket, etc to throw the tear gas back to the police
+heat protective gloves
+Steel toed work boots to protect your feet
+Cheap at walmart
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="3sF-16-osX" firstAttribute="width" secondItem="TCX-2b-1Qq" secondAttribute="width" id="1z0-AO-AxL"/>
+                                    <constraint firstItem="3sF-16-osX" firstAttribute="bottom" secondItem="veD-e2-mm9" secondAttribute="bottom" id="6Ed-AS-tCj"/>
+                                    <constraint firstItem="3sF-16-osX" firstAttribute="trailing" secondItem="veD-e2-mm9" secondAttribute="trailing" id="H7S-1U-nRY"/>
+                                    <constraint firstItem="3sF-16-osX" firstAttribute="leading" secondItem="veD-e2-mm9" secondAttribute="leading" id="dPm-Sl-O0n"/>
+                                    <constraint firstItem="3sF-16-osX" firstAttribute="top" secondItem="veD-e2-mm9" secondAttribute="top" id="e2W-PR-wAA"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="veD-e2-mm9"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="TCX-2b-1Qq"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="dBF-Qf-WoD" firstAttribute="top" secondItem="Nff-BK-KfC" secondAttribute="top" id="3Fx-dO-FbC"/>
+                            <constraint firstItem="dBF-Qf-WoD" firstAttribute="leading" secondItem="Nff-BK-KfC" secondAttribute="leading" id="Dez-3F-iJO"/>
+                            <constraint firstItem="dBF-Qf-WoD" firstAttribute="bottom" secondItem="Nff-BK-KfC" secondAttribute="bottom" id="HlI-bm-Hn1"/>
+                            <constraint firstItem="dBF-Qf-WoD" firstAttribute="trailing" secondItem="Nff-BK-KfC" secondAttribute="trailing" id="dI4-wW-Zko"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Nff-BK-KfC"/>
                     </view>
                     <navigationItem key="navigationItem" title="Petitions to Sign" id="kcA-WC-354"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jvk-d6-rYP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3964" y="1498"/>
+            <point key="canvasLocation" x="3963.7681159420295" y="1497.9910714285713"/>
         </scene>
         <!--Learn-->
         <scene sceneID="wg7-f3-ORb">
@@ -692,7 +999,7 @@ Sincerely,
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9V-0q-iIA">
                                 <rect key="frame" x="25" y="232" width="365" height="469"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">George Floyd was a father, a son, an avid sports fan, a partner, and a brother. Everyone knew his as being a friendly giant with a kind soul. Everyone loved to be around him since he was a good support system. He loved sports and even played football in high school where he constantly supported his team and would even burst out singing to get his team through a tough practice. He help the football team make the state championships multiple times. He was a huge fan of basketball and of LeBron James. He went to a community college where he played basketball for two years and then transferred to Texas A&amp;M University where he eventually dropped out. He loved music and even rapped with a group called the Screwed Up Click in Houston's hip-hop scene in the 1990s. He moved to Minneapolis where he worked as a truck driver and bouncer before the coronavirus pandemic hit. </mutableString>
+                                <string key="text">George Floyd was a father, a son, an avid sports fan, a partner, and a brother. Everyone knew his as being a friendly giant with a kind soul. Everyone loved to be around him since he was a good support system. He loved sports and even played football in high school where he constantly supported his team and would even burst out singing to get his team through a tough practice. He help the football team make the state championships multiple times. He was a huge fan of basketball and of LeBron James. He went to a community college where he played basketball for two years and then transferred to Texas A&amp;M University where he eventually dropped out. He loved music and even rapped with a group called the Screwed Up Click in Houston's hip-hop scene in the 1990s. He moved to Minneapolis where he worked as a truck driver and bouncer before the coronavirus pandemic hit. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -747,7 +1054,7 @@ Sincerely,
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="55" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sf0-Ab-dHi">
                                                 <rect key="frame" x="0.0" y="0.0" width="404" height="1075.5"/>
                                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <mutableString key="text">
+                                                <string key="text">
 - The New Jim Crow: Michelle Alexander
 - The Fire Next Time: James Baldwin
 - Indigenous Peoples' History of the United States: Roxanne Dunbar-Ortiz
@@ -783,7 +1090,7 @@ Freedom is a Constant Struggle: Angela Davis
 - Invisible No More: Police Violence Against Black Women of Color Andrea Ritchie
 - Jackson Rising: The Struggle for Economic Democracy and Black Self-Determination Kali Akuno and Ajamu Nangwaya
 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1318,22 +1625,71 @@ Freedom is a Constant Struggle: Angela Davis
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Protest Tips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MbI-EA-oal">
-                                <rect key="frame" x="161" y="127" width="93" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HSy-dH-8N8">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fMQ-UH-B1G">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="933.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJm-fC-mFo">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="933.5"/>
+                                                <mutableString key="text">If you know of any tips that can keep protestors safe, SPEAK OUT
+Let black voices take the stage, they deserve to speak and lead for themselves
+Info:
+Because ANTIFA has been dubbed a terrorist organization, anyone can be arrested “without reason”
+The rubber bullets that the police araae using are metal bullets with a very thin layer of rubber around it
+1 in 5 people shot will be permanently disabled  or deformed, 40% require hospitalization
+Tear gas, although banned in warfare, is being used on peaceful protesters
+Resulted in the death of protector Sarah Grossman
+Batons are metal bats that can cause permanent head and bone injuries, even death
+Bean bag rounds collapse a human skull and regularly kill and maim protesters
+Police use of tasers can also result in death
+Tips:
+Undercover police usually wear blue and white armbands in protests to distinguish themselves
+Swim goggles can protect your eyes from pepper spray, maze, tear gas, etc MAKE SURE THEY’RE AIRTIGHT
+Make a sign out of cheap plywood to be able to use it as a shield too
+equal parts ORIGINAL FLAVOR antacid solution + purified/ distilled water to soothe eyes better
+DON’T WEAR ANY MAKEUP tear gas and other things will cling to your skin
+Completely cover your face to protect it and cover any distinguishing features to protect yourselves
+mix flour with vaseline to cover certain features (nose bridge, etc.)
+The app 5-0 radio lets you listen to police radios all over the world in every city and county 
+Instead of going straight home go to a hotel, a friends home, or somewhere else in case you’re getting followed 
+You can use a traffic cone to stop tear gas or a tennis racket, etc to throw the tear gas back to the police
+heat protective gloves
+Steel toed work boots to protect your feet
+Cheap at walmart</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="fMQ-UH-B1G" firstAttribute="trailing" secondItem="wpp-dx-xMv" secondAttribute="trailing" id="85b-bS-WgD"/>
+                                    <constraint firstItem="fMQ-UH-B1G" firstAttribute="top" secondItem="wpp-dx-xMv" secondAttribute="top" id="AZw-Jm-nOH"/>
+                                    <constraint firstItem="fMQ-UH-B1G" firstAttribute="width" secondItem="3sV-Rr-9E9" secondAttribute="width" id="Oez-9N-gHi"/>
+                                    <constraint firstItem="fMQ-UH-B1G" firstAttribute="leading" secondItem="wpp-dx-xMv" secondAttribute="leading" id="eqe-9Q-OOx"/>
+                                    <constraint firstItem="fMQ-UH-B1G" firstAttribute="bottom" secondItem="wpp-dx-xMv" secondAttribute="bottom" id="poV-oZ-IbM"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="wpp-dx-xMv"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="3sV-Rr-9E9"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="HSy-dH-8N8" firstAttribute="trailing" secondItem="rat-yF-Qkn" secondAttribute="trailing" id="AFm-0a-8af"/>
+                            <constraint firstItem="HSy-dH-8N8" firstAttribute="bottom" secondItem="rat-yF-Qkn" secondAttribute="bottom" id="LL3-My-HLY"/>
+                            <constraint firstItem="HSy-dH-8N8" firstAttribute="leading" secondItem="rat-yF-Qkn" secondAttribute="leading" id="kvY-bo-rPg"/>
+                            <constraint firstItem="HSy-dH-8N8" firstAttribute="top" secondItem="rat-yF-Qkn" secondAttribute="top" id="szx-tD-taK"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="rat-yF-Qkn"/>
                     </view>
                     <navigationItem key="navigationItem" title="Protest Tips" id="67y-Jz-BcR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pPG-Xj-IlK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="700" y="1471"/>
+            <point key="canvasLocation" x="698.55072463768124" y="1470.5357142857142"/>
         </scene>
         <!--Breonna Taylor-->
         <scene sceneID="eAg-lj-OeW">
@@ -1346,7 +1702,7 @@ Freedom is a Constant Struggle: Angela Davis
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uD1-sO-QWD">
                                 <rect key="frame" x="38" y="337" width="339" height="299"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Breonna Taylor was a certified EMT who had two jobs at hospitals in Louisville. She adored her family above all else and made plans to succeed. She had planned on becoming a nurse and buying a house and then starting a family. She was kind, hardworking, and honest. She was a daughter, a godmother, a niece, a best friend, and a sister. She was an honor roll student, she loved board games, she liked to tell jokes, she loved helping others, she loved her job, she was applying to community college, and she was a caring person. </mutableString>
+                                <string key="text">Breonna Taylor was a certified EMT who had two jobs at hospitals in Louisville. She adored her family above all else and made plans to succeed. She had planned on becoming a nurse and buying a house and then starting a family. She was kind, hardworking, and honest. She was a daughter, a godmother, a niece, a best friend, and a sister. She was an honor roll student, she loved board games, she liked to tell jokes, she loved helping others, she loved her job, she was applying to community college, and she was a caring person. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
