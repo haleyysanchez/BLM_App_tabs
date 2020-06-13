@@ -1449,9 +1449,9 @@ aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="22" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9V-0q-iIA">
-                                <rect key="frame" x="20" y="310" width="374" height="336"/>
-                                <string key="text">George Floyd was a father, a son, an avid sports fan, a partner, and a brother. Everyone knew him as a friendly giant with a kind soul. Everyone loved to be around him since he was a good support system. He played football in high school where he constantly supported his team and would even burst out singing to get his team through a tough practice. He helped the football team make the state championships multiple times. He was a huge fan of basketball and of LeBron James. He went to a community college where he played basketball for two years and then transferred to Texas A&amp;M University where he eventually dropped out. He loved music and even rapped with a group called the Screwed Up Click in Houston's hip-hop scene in the 1990s. He moved to Minneapolis where he worked as a truck driver and bouncer before the coronavirus pandemic hit. </string>
-                                <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="15"/>
+                                <rect key="frame" x="20" y="310" width="374" height="245"/>
+                                <mutableString key="text">George Floyd was a father, a son, an avid sports fan, a partner, and a brother. Everyone knew him as a friendly giant with a kind soul. Everyone loved to be around him since he was a good support system. He played football in high school where he constantly supported his team and would even burst out singing to get his team through a tough practice. He helped the football team make the state championships multiple times. He was a huge fan of basketball and of LeBron James. He went to a community college where he played basketball for two years and then transferred to Texas A&amp;M University where he eventually dropped out. He loved music and even rapped with a group called the Screwed Up Click in Houston's hip-hop scene in the 1990s. He moved to Minneapolis where he worked as a truck driver and bouncer before the coronavirus pandemic hit. </mutableString>
+                                <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="13"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1463,7 +1463,7 @@ aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8O-2k-csV">
-                                <rect key="frame" x="20" y="696" width="374" height="30"/>
+                                <rect key="frame" x="20" y="580" width="374" height="30"/>
                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="15"/>
                                 <state key="normal" title="See Video">
@@ -1497,7 +1497,7 @@ aaaaasaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
                             <constraint firstItem="f9V-0q-iIA" firstAttribute="leading" secondItem="FIA-vS-Kgz" secondAttribute="leading" constant="20" id="n3M-lp-iX4"/>
                             <constraint firstItem="j8O-2k-csV" firstAttribute="centerX" secondItem="6YO-Df-FEF" secondAttribute="centerX" id="ny4-cI-oHl"/>
                             <constraint firstItem="m5h-A7-V0h" firstAttribute="leading" secondItem="6YO-Df-FEF" secondAttribute="leading" constant="20" id="opg-Im-zOZ"/>
-                            <constraint firstItem="j8O-2k-csV" firstAttribute="top" secondItem="f9V-0q-iIA" secondAttribute="bottom" constant="50" id="pxc-WD-iuA"/>
+                            <constraint firstItem="j8O-2k-csV" firstAttribute="top" secondItem="f9V-0q-iIA" secondAttribute="bottom" constant="25" id="pxc-WD-iuA"/>
                             <constraint firstItem="FIA-vS-Kgz" firstAttribute="bottom" secondItem="m5h-A7-V0h" secondAttribute="bottom" id="ru0-dq-2aN"/>
                             <constraint firstItem="FIA-vS-Kgz" firstAttribute="trailing" secondItem="j8O-2k-csV" secondAttribute="trailing" constant="20" id="xnK-Tz-4g8"/>
                         </constraints>
@@ -2558,9 +2558,9 @@ Let black voices take the stage, they deserve to speak and lead for themselves
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uD1-sO-QWD">
-                                <rect key="frame" x="20" y="370.5" width="374" height="280.5"/>
+                                <rect key="frame" x="20" y="370.5" width="374" height="212"/>
                                 <string key="text">Breonna Taylor was a certified EMT who had two jobs at hospitals in Louisville. She adored her family above all else and made plans to succeed. She had planned on becoming a nurse, buying a house, then starting a family. She was kind, hardworking, and honest. She was a daughter, a godmother, a niece, a best friend, and a sister. She was an honor roll student, loved board games, loved to tell jokes, loved helping others, and loved her job. She was applying to community college, and was overall an amazing person. </string>
-                                <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="15"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2607,9 +2607,9 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="27" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAa-Mp-lZ7">
-                                <rect key="frame" x="40" y="408" width="334" height="200.5"/>
+                                <rect key="frame" x="40" y="408" width="334" height="170"/>
                                 <string key="text">Ahmaud Arbery was supposed to turn 26 on May 8. He played football in high school, graduated in 2012, and then went onto college. He worked as an electrician and was well mannered, kind, and humble. He loved boxing and inspired others in doing so. He loved staying active and fit. He was someone’s friend, someone’s son, and someone’s family.</string>
-                                <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2620,7 +2620,7 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPF-5f-EFG">
-                                <rect key="frame" x="20" y="658.5" width="374" height="30"/>
+                                <rect key="frame" x="20" y="603" width="374" height="30"/>
                                 <color key="backgroundColor" red="0.95265918969999996" green="0.79288703199999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="15"/>
                                 <state key="normal" title="See Video">
@@ -2655,7 +2655,7 @@ And https://www.usatoday.com/story/news/nation/2020/05/14/breonna-taylor-what-kn
                             <constraint firstAttribute="trailingMargin" secondItem="4Cf-Ri-Pyq" secondAttribute="trailing" constant="20" id="ops-ti-Ni3"/>
                             <constraint firstItem="4Cf-Ri-Pyq" firstAttribute="leading" secondItem="3mh-iI-vVP" secondAttribute="leadingMargin" constant="20" id="rZf-H4-VxR"/>
                             <constraint firstItem="P2J-cy-az5" firstAttribute="bottom" secondItem="4Cf-Ri-Pyq" secondAttribute="bottom" constant="10" id="ruO-gX-ULK"/>
-                            <constraint firstItem="IPF-5f-EFG" firstAttribute="top" secondItem="LAa-Mp-lZ7" secondAttribute="bottom" constant="50" id="yLo-Dz-Qh3"/>
+                            <constraint firstItem="IPF-5f-EFG" firstAttribute="top" secondItem="LAa-Mp-lZ7" secondAttribute="bottom" constant="25" id="yLo-Dz-Qh3"/>
                             <constraint firstItem="GxX-If-5Mv" firstAttribute="top" secondItem="P2J-cy-az5" secondAttribute="top" constant="12" id="ygf-je-DmA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="P2J-cy-az5"/>
