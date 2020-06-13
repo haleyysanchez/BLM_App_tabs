@@ -9,6 +9,10 @@
 import UIKit
 
 class petitionsViewController: UIViewController {
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
     var petition = ""
     

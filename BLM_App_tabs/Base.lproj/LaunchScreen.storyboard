@@ -15,12 +15,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BLM_Home" translatesAutoresizingMaskIntoConstraints="NO" id="ixJ-Hk-XwP">
-                                <rect key="frame" x="52" y="241" width="310" height="312"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="BLM_Home" translatesAutoresizingMaskIntoConstraints="NO" id="ixJ-Hk-XwP">
+                                <rect key="frame" x="0.0" y="241" width="414" height="312"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.022161880509999999" green="0.022170117119999999" blue="0.022160135210000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ixJ-Hk-XwP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="3sG-Qk-xpY"/>
+                            <constraint firstAttribute="trailing" secondItem="ixJ-Hk-XwP" secondAttribute="trailing" id="VUz-eb-6jr"/>
+                            <constraint firstItem="ixJ-Hk-XwP" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="tHK-Kg-xj8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

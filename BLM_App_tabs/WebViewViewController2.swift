@@ -10,6 +10,10 @@ import UIKit
 import WebKit
 
 class WebViewViewController2: UIViewController, WKUIDelegate {
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
     
     var webView: WKWebView!
