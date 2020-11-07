@@ -8,4 +8,4 @@ This project was created during a Kode with Klossy mobile app development camp.
 
 ## Acknowledgments
 
-* Thank you Kode with Klossy for giving us an amazing community and so many opporutnities, including getting to creat a resource app like this!
+* Thank you Kode with Klossy for giving us an amazing community and so many opporutnities, including getting to create a resource app like this!
